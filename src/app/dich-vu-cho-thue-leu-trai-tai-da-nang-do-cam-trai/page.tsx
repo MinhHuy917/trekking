@@ -52,7 +52,11 @@ import than1 from '/src/images/than/1.png'
 import caytrutreodenanh2 from '/src/images/caytrutreoden/2.png'
 import binhgas1 from '/src/images/binhgas/1.jpg'
 import TuiMangNuocCoVoi1 from '/src/images/TuiMangNuocCoVoi/1.jpg'
-import loakaraoke from '/src/images/loakaraoke/0.jpg'
+import loajblpartyboxencore2 from '/src/images/loajblpartyboxencore2/0.png'
+import loajblpartyboxstage320 from '/src/images/loajblpartyboxstage320/0.png'
+import loajblpartybox720 from '/src/images/loajblpartybox720/0.png'
+import loajblpartyboxultimate from '/src/images/loajblpartyboxultimate/0.png'
+import ghegapgon from '/src/images/ghegapgon/0.jpg'
 import Link from 'next/link'
 import bepnuongMT3 from '/src/images/bepnuongMT3/0.png'
 
@@ -68,6 +72,7 @@ const rentalItems = [
   { id: 'tam-cach-nhiet', name: 'Tấm cách nhiệt', price: 'Miễn phí', type: 'ngày', image: cachnhiet },
   // Bàn ghế
   {  id: 'thue-ghe-camping-da-nang', name: 'Ghế mặt trăng', price: '20.000 VNĐ', type: 'ngày', image: ghe },
+  {  id: 'ghe-camping-gap-gon', name: 'Ghế gấp gọn', price: '25.000 VNĐ', type: 'ngày', image: ghegapgon },
   {  id: 'ghe-naturehike-nh16j001-j', name: 'Ghế NatureHike', price: '30.000 VNĐ', type: 'ngày', image: gheNH1 },
   { id: 'thue-ban-camping-da-nang', name: 'Bàn nhôm 90×60 cm', price: '50.000 VNĐ', type: 'ngày', image: ban },
   {  id: 'ban-nhom-naturehike-cnh22ju050', name: 'Bàn nhôm Naturehike CNH22JU050 - Size S', price: '60.000 VNĐ', type: 'ngày', image: banNH1 },
@@ -91,7 +96,10 @@ const rentalItems = [
   // Tiện ích
   { id: 'sac-du-phong', name: 'Sạc dự phòng 20.000 mAh', price: '30.000 VNĐ', type: 'ngày', image: sacduphong },
   { id: 'thue-loa-nghe-nhac-da-nang', name: 'Loa Tronsmart T7 Mini', price: '50.000 VNĐ', type: 'ngày', image: loa },
-  { id: 'thue-loa-karaoke-xach-tay-da-nang', name: 'Loa Karaoke Xách Tay', price: '290.000 VNĐ', type: 'ngày', image: loakaraoke },
+  { id: 'loa-jbl-partyBox-encore-2', name: 'Loa JBL PartyBox Encore 2', price: '350.000 VNĐ', type: 'ngày', image: loajblpartyboxencore2 },
+  { id: 'loa-jbl-partyBox-stage-320', name: 'Loa JBL PartyBox Stage 320', price: '550.000 VNĐ', type: 'ngày', image: loajblpartyboxstage320 },
+  { id: 'loa-jbl-partyBox-720', name: 'Loa JBL PartyBox 720', price: '1200.000 VNĐ', type: 'ngày', image: loajblpartybox720 },
+  { id: 'loa-jbl-party-box-ultimate', name: 'Loa JBL PartyBox Ultimate', price: '1600.000 VNĐ', type: 'ngày', image: loajblpartyboxultimate },
   {  id: 'quat-tich-dien', name: 'Quạt tích điện (pin 20.000 mAh + đèn)', price: '60.000 VNĐ', type: 'ngày', image: quat },
   { id: 'thue-trippd-da-nang', name: 'Tripod (remote)', price: '40.000 VNĐ', type: 'ngày', image: tripod },
   { name: 'Bộ bài ma sói', price: '10.000 VNĐ', type: 'ngày', image: baimasoi },
@@ -110,7 +118,7 @@ const rentalItems = [
   {  id: 'dau-kho-namilux', name: 'Đầu khò', price: '10.000 VNĐ', type: 'ngày', image: daukho },
   {id: 'binh-ga-mini-namilux-250g', name: 'Bình gas mini 250 g', price: '30.000 VNĐ', type: 'ngày', image: binhgas1 },
   { id: 'than-gao-dua', name: 'Than gáo dừa 1 kg', price: '30.000 VNĐ', type: 'ngày', image: than1 },
-  { id: 'vien-moi-than', name: 'Viên mồi than', price: '8.000 VNĐ', type: 'ngày', image: vienmoithan1 },
+  { id: 'vien-moi-than', name: 'Viên mồi than', price: '5.000 VNĐ', type: 'ngày', image: vienmoithan1 },
   // Thùng đá & nước
   { id: 'thung-da-8l', name: 'Thùng đá 8 L', price: '20.000 VNĐ', type: 'ngày', image: thungdanho },
   {  id: 'thung-da-16l', name: 'Thùng đá 16 L', price: '30.000 VNĐ', type: 'ngày', image: thungda16L },
