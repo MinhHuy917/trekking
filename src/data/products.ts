@@ -105,6 +105,14 @@ import gheNH9 from '/src/images/gheNH16J001-J/9.jpg'
 import gheNH10 from '/src/images/gheNH16J001-J/10.jpg'
 import gheNH11 from '/src/images/gheNH16J001-J/11.jpg'
 
+import ghegapgon from '/src/images/ghegapgon/0.jpg'
+import ghegapgon1 from '/src/images/ghegapgon/1.jpg'
+import ghegapgon2 from '/src/images/ghegapgon/2.jpg'
+import ghegapgon3 from '/src/images/ghegapgon/3.jpg'
+import ghegapgon4 from '/src/images/ghegapgon/4.jpg'
+import ghegapgon5 from '/src/images/ghegapgon/5.jpg'
+
+
 import bananh1 from '/src/images/ban/1.png'
 import bananh2 from '/src/images/ban/2.png'
 import bananh3 from '/src/images/ban/3.png'
@@ -640,6 +648,25 @@ export const products = [
     detail3: 'Thích hợp dùng trong các buổi picnic, camping, ngồi chơi ngoài trời – tạo cảm giác thoải mái và thư giãn với thiết kế lưng thấp ôm sát người.',
     detail4: 'Thương hiệu cao cấp: TMOUNTAIN – chuyên sản xuất đồ Camping & Glamping thiết kế riêng biệt, gia công tỉ mỉ, chất lượng vượt trội so với các sản phẩm không thương hiệu.',
   },
+
+  {
+    id: 'ghe-camping-gap-gon',
+    name: 'Ghế gấp gọn',
+    catalogue: '(1.3kg)',
+    image: ghegapgon.src,
+    image1: ghegapgon1.src,
+    image2: ghegapgon2.src,
+    image3: ghegapgon3.src,
+    image4: ghegapgon4.src,
+    image5: ghegapgon5.src,
+    originalPrice: 30,
+    price: 25,
+    quantity: 1,
+    detail1: 'Ghế có kết cấu chắc chắn với khung thép cứng cáp chịu lực tốt và được làm từ chất liệu Vải Oxford 600D chống mài mòn, độ bền cao.',
+    detail2: 'Trọng lượng ghế rất nhẹ, chỉ 1.5 kg (hoặc 1.3kg theo catalogue), nhưng có khả năng chịu tải trọng tối đa lên đến 130 kg.',
+    detail3: 'Sản phẩm được thiết kế để mang lại sự thoải mái tối đa với mặt lưới thoáng khí nylon đàn hồi, ôm sát và nâng đỡ lưng chống mỏi.',
+    detail4: 'Ghế có tính cơ động cao, dễ dàng tháo lắp nhờ hệ khung được nối bằng dây đàn hồi và có kích thước đóng túi rất gọn nhẹ: 37x12cm.',
+},
 
   {
     id: 'ghe-naturehike-nh16j001-j',

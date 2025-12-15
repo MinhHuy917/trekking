@@ -247,6 +247,8 @@ const ProductList: React.FC = () => {
     </p>
     <div className="flex justify-center">
   <Image
+    width={160}
+    height={200}
     src={QR.src}
     alt="QR Thanh toán"
     className="max-w-xs rounded-lg border border-gray-300 shadow-md bg-white p-2"
