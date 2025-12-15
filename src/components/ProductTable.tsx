@@ -246,7 +246,7 @@ const ProductList: React.FC = () => {
       Bạn có thể quét mã QR bên dưới để thanh toán nhanh chóng và tiện lợi.
     </p>
     <div className="flex justify-center">
-  <img
+  <Image
     src={QR.src}
     alt="QR Thanh toán"
     className="max-w-xs rounded-lg border border-gray-300 shadow-md bg-white p-2"
