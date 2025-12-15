@@ -27,6 +27,7 @@ type Product = {
   price: number
   quantity: number
   isRental?: boolean
+  isForSale?: boolean
 }
 
 const FilterBar: React.FC<{ selected: string; onChange: (v: string) => void; }> = ({ selected, onChange }) => {
@@ -77,6 +78,7 @@ const categoryOptions = [
 const ProductList: React.FC = () => {
   const [filterText, setFilterText] = useState('')
   const [selectedCategory, setSelectedCategory] = useState('all')
+  const [activeTab, setActiveTab] = useState<'rental' | 'sale'>('rental')
 
   const categoryFilterMap: Record<string, (p: Product) => boolean> = {
     all: () => true,
@@ -132,7 +134,7 @@ const ProductList: React.FC = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
           {filteredProducts.map((product) => (
             <Link
-              href={`/products/${product.id}`}
+              href={`/products/${product.id}?mode=rental`}
               key={product.id}
               className="rounded-2xl bg-white dark:bg-[#EFE9DA] shadow hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col"
             >
@@ -165,13 +167,13 @@ const ProductList: React.FC = () => {
     <div className="flex flex-col">
       {/* Giá gốc */}
       <span className="text-gray-400 line-through text-[11px] sm:text-xs">
-        {product.originalPrice}k{product.isRental ? "" : "/ngày"}
+        {product.originalPrice}k/ngày
       </span>
 
       {/* Giá sale + badge giảm */}
       <div className="flex items-center gap-1.5">
         <span className="text-orange-600 font-semibold text-sm sm:text-base">
-          {product.price}k{product.isRental ? "" : "/ngày"}
+          {product.price}k/ngày
         </span>
         <span className="bg-red-500 text-white text-[9px] sm:text-[10px] font-semibold px-1.5 py-0.5 rounded-full">
           -{Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100)}%
@@ -180,7 +182,7 @@ const ProductList: React.FC = () => {
     </div>
   ) : (
     <span className="text-orange-600 font-semibold text-sm sm:text-base">
-      {product.price}k{product.isRental ? "" : "/ngày"}
+      {product.price}k/ngày
     </span>
   )}
 </div>
@@ -194,7 +196,8 @@ const ProductList: React.FC = () => {
       ) : (
         <p className="text-center text-gray-500">Không tìm thấy sản phẩm phù hợp.</p>
       )}
-            <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-md space-y-6 my-12">
+      
+      <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-md space-y-6 my-12">
         <h2 className="text-2xl font-bold text-gray-800">Chính sách thuê lều</h2>
 
         {/* 1. Đặt cọc & thanh toán */}

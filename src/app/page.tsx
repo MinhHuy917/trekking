@@ -25,7 +25,9 @@ export default async function Home() {
 
       <SpecialNoticeBanner />
 
-      <ProductList />
+      <div id="products-section">
+        <ProductList />
+      </div>
 {/* ✅ Vì sao chọn chúng tôi */}
 <WhyUs />
           {/* ✅ Đánh giá khách hàng */}

@@ -11,6 +11,7 @@ import { Footer } from '@/components/Footer'
 import { GridPattern } from '@/components/GridPattern'
 import { Offices } from '@/components/Offices'
 import { SocialMedia } from '@/components/SocialMedia'
+import CampingHeader from '@/components/CampingHeader'
 import logo from '@/images/logo.png'
 import Image from 'next/image'
 import bg1 from '/src/images/bg1.png'
@@ -323,70 +324,11 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
 
   return (
     <MotionConfig transition={shouldReduceMotion ? { duration: 0 } : undefined}>
-      <>
-        <div
-          className="absolute left-0 right-0 top-2 z-40"
-          aria-hidden={expanded ? 'true' : undefined}
-          // @ts-ignore (https://github.com/facebook/react/issues/17157)
-          inert={expanded ? '' : undefined}
-        >
-          <Header
-            panelId={panelId}
-            icon={MenuIcon}
-            toggleRef={openRef}
-            expanded={expanded}
-            onToggle={() => {
-              setExpanded((expanded) => !expanded)
-              window.setTimeout(() =>
-                closeRef.current?.focus({ preventScroll: true }),
-              )
-            }}
-          />
-        </div>
+      <div className="relative flex flex-auto overflow-hidden bg-white">
+        <div className="relative isolate flex w-full flex-col">
+          {/* New Camping Header */}
+          <CampingHeader />
 
-        <motion.div
-          layout
-          id={panelId}
-          style={{ height: expanded ? 'auto' : '0.5rem' }}
-          className="relative z-50 overflow-hidden bg-neutral-950"
-          aria-hidden={expanded ? undefined : 'true'}
-          // @ts-ignore (https://github.com/facebook/react/issues/17157)
-          inert={expanded ? undefined : ''}
-        >
-          <motion.div layout className="bg-white">
-            <div ref={navRef} className={clsx(
-              'py-10',
-              expanded ? 'bg-[#EFE9DA]' : 'bg-white',
-            )}>
-              <Header
-                invert
-                panelId={panelId}
-                icon={XIcon}
-                toggleRef={closeRef}
-                expanded={expanded}
-                onToggle={() => {
-                  setExpanded((expanded) => !expanded)
-                  window.setTimeout(() =>
-                    openRef.current?.focus({ preventScroll: true }),
-                  )
-                }}
-              />
-            </div>
-            <Navigation />
-            <div className="relative bg-[#EFE9DA] before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-neutral-800">
-            </div>
-          </motion.div>
-        </motion.div>
-      </>
-
-      <motion.div
-        layout
-        className="relative flex flex-auto overflow-hidden bg-white"
-      >
-        <motion.div
-          layout
-          className="relative isolate flex w-full flex-col"
-        >
           <GridPattern
             className="absolute inset-x-0 -top-14 -z-10 h-[1000px] w-full fill-neutral-50 stroke-neutral-950/5 [mask-image:linear-gradient(to_bottom_left,white_40%,transparent_50%)]"
             yOffset={-96}
@@ -396,8 +338,8 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
           <main className="w-full flex-auto">{children}</main>
 
           <Footer />
-        </motion.div>
-      </motion.div>
+        </div>
+      </div>
     </MotionConfig>
   )
 }

@@ -440,6 +440,8 @@ export const products = [
     detail3: 'Khung nhôm cường lực siêu nhẹ, trọng lượng chỉ 1.5kg, dễ dàng dựng trên mọi địa hình.',
     detail4: 'Kèm 8 cọc neo, 4 dây dù chống gió và túi đựng tiện lợi, 4 góc có dây phản quang tăng an toàn khi dựng ban đêm.',
     videoId: 'D3CLiDGj6r4?si=UsOPSSl-Cp9vQCFO',
+    isForSale: true,
+    salePrice: 950,
   }
   ,
   {
@@ -460,6 +462,8 @@ export const products = [
     detail3: 'Khung sợi thủy tinh 8.5mm chắc chắn, lắp ráp dễ dàng bằng hệ móc khung, đi kèm cọc, dây buộc và cặp cây chống mái.',
     detail4: 'Trang bị 2 cửa ra vào rộng rãi, lưới B3 chống côn trùng nhỏ nhất, đai chốt may kép tăng độ bền, có 3 màu: vàng, xanh dương và cam.',
     videoId: 'LW_kzZD7uwE?t=375',
+    isForSale: true,
+    salePrice: 1100,
   },
   {
     id: 'thue-leu-6-da-nang',
@@ -478,7 +482,9 @@ export const products = [
     detail2: 'Chất liệu vải chính 190T PU 2000mm, vải đáy 150D PU 2500mm chống thấm hiệu quả, đường may ép keo chuẩn 7 mũi/inch.',
     detail3: 'Khung carbon 9.5mm loại da rắn chắc chắn hơn khung đen thông thường, lều chỉ có 1 màu cam như hình.',
     detail4: 'Trang bị 1 cửa chính + 3 cửa sổ (đều 2 lớp: vải + lưới B3 chống côn trùng), 3 tai thỏ thông gió, kèm đầy đủ cọc và dây chằng.',
-    videoId: 'jUJEb9rUzA4'
+    videoId: 'jUJEb9rUzA4',
+    isForSale: true,
+    salePrice: 1900,
   },
 
   {
@@ -498,7 +504,9 @@ export const products = [
     detail2: 'Vải dày 150D phủ PU 3000mm chống thấm mưa cực tốt, có phủ ngoài và phòng ngủ riêng biệt.',
     detail3: 'Khung Fibreglass 13mm siêu chắc chắn: 2 cây dài cho phòng ngủ, 2 cây ngắn cho phủ ngoài, dựng được cả mái che kiểu canopy.',
     detail4: 'Trang bị đầy đủ: 10 cọc đất, 4 dây chằng có khóa tăng giảm, kèm bạt lót đáy bảo vệ và túi đựng 70x30cm – tổng trọng lượng 10kg.',
-    videoId: '5yuCrcfo-3Q'
+    videoId: '5yuCrcfo-3Q',
+    isForSale: true,
+    salePrice: 2600,
   },
   {
     id: 'vong-don',
@@ -687,6 +695,8 @@ export const products = [
     detail2: 'Trọng lượng ghế rất nhẹ, chỉ 1.5 kg (hoặc 1.3kg theo catalogue), nhưng có khả năng chịu tải trọng tối đa lên đến 130 kg.',
     detail3: 'Sản phẩm được thiết kế để mang lại sự thoải mái tối đa với mặt lưới thoáng khí nylon đàn hồi, ôm sát và nâng đỡ lưng chống mỏi.',
     detail4: 'Ghế có tính cơ động cao, dễ dàng tháo lắp nhờ hệ khung được nối bằng dây đàn hồi và có kích thước đóng túi rất gọn nhẹ: 37x12cm.',
+    isForSale: true,
+    salePrice: 250,
 },
 
   {
@@ -939,7 +949,9 @@ export const products = [
     detail3: 'Có thể điều chỉnh chiều cao nhờ 4 chốt nối linh hoạt',
     detail4: 'Phù hợp mang theo khi đi cắm trại, picnic, dã ngoại',
     detail5: 'Đường kính ống nhôm 1.5cm, chịu tải tốt, không cong gãy',
-    detail6: 'Trọng lượng chỉ 600g – gồm chân cắm, 4 đoạn trụ & túi đựng'
+    detail6: 'Trọng lượng chỉ 600g – gồm chân cắm, 4 đoạn trụ & túi đựng',
+    isForSale: true,
+    salePrice: 390,
   },
   {
     id: 'sac-du-phong',
@@ -1070,7 +1082,9 @@ export const products = [
     detail1: 'Quạt tích điện F6 mẫu 2024, pin siêu khủng 20.000mAh, tích hợp đèn chiếu sáng 3 mức, điều khiển từ xa và chức năng hẹn giờ.',
     detail2: 'Thời gian dùng: 70h (mức gió thấp), 11h (gió mạnh nhất), 9h (bật toàn bộ chức năng); đèn sáng liên tục đến 300h.',
     detail3: 'Quạt sử dụng động cơ kép nam châm 9 lõi, cánh quạt kép thổi xa 10m, có thể xoay 180°, dùng như pin sạc dự phòng.',
-    detail4: 'Thiết kế nhỏ gọn, phù hợp treo lều, để bàn, xe ô tô, dùng khi mất điện hay đi dã ngoại. Màu: Cam, Xanh. Trọng lượng 1.2kg.'
+    detail4: 'Thiết kế nhỏ gọn, phù hợp treo lều, để bàn, xe ô tô, dùng khi mất điện hay đi dã ngoại. Màu: Cam, Xanh. Trọng lượng 1.2kg.',
+    isForSale: true,
+    salePrice: 690,
   },
   {
     id: 'thue-trippd-da-nang',
@@ -1125,7 +1139,9 @@ export const products = [
     detail1: 'Chất liệu inox không gỉ cao cấp, chịu nhiệt tốt, tuổi thọ cao',
     detail2: 'Kích thước mở: 49 x 34 x 26cm | Gấp gọn: 49 x 20 x 9cm | Trọng lượng: 4.3kg',
     detail3: 'Vỉ nướng điều chỉnh độ cao, tháo lắp nhanh, dễ vệ sinh',
-    detail4: 'Phù hợp cho nhóm 8-10 người, lý tưởng cho dã ngoại, picnic, BBQ ngoài trời'
+    detail4: 'Phù hợp cho nhóm 8-10 người, lý tưởng cho dã ngoại, picnic, BBQ ngoài trời',
+    isForSale: true,
+    salePrice: 890,
   },
 
   {
@@ -1163,7 +1179,9 @@ export const products = [
     detail1: 'Bếp gas mini WAJARIGHT hàng xuất Nhật. Thiết kế cứng cáp, tiện lợi cho du lịch, picnic, cắm trại. Chất liệu: thép không gỉ, đồng, nhôm, nylon.',
     detail2: 'Kích thước mở rộng: 26x26x10 cm. Gập gọn: 27x8x10 cm. Trọng lượng 1.23kg. Công suất 2.6kW. Tiêu thụ gas: 190g/h. Sử dụng bình gas mini.',
     detail3: 'Tích hợp đánh lửa nhanh. Van điện từ an toàn, tự ngắt khi áp suất tăng. Núm điều chỉnh lửa linh hoạt. Giá đỡ có răng cưa giữ nồi chắc chắn.',
-    detail4: 'Thiết kế gấp gọn nhanh chóng, tặng kèm túi đựng tiện lợi. Thích hợp cho các hoạt động ngoài trời như cắm trại, câu cá, trekking,...'
+    detail4: 'Thiết kế gấp gọn nhanh chóng, tặng kèm túi đựng tiện lợi. Thích hợp cho các hoạt động ngoài trời như cắm trại, câu cá, trekking,...',
+    isForSale: true,
+    salePrice: 590,
   },
 
   {
@@ -1182,7 +1200,9 @@ export const products = [
     detail1: 'Bếp cồn inox 304 dày dặn, chịu nhiệt tốt, an toàn hơn so với bếp gas trong môi trường cắm trại.',
     detail2: 'Thiết kế nhỏ gọn, dễ dàng mang theo, phù hợp nấu lẩu, nấu ăn đơn giản khi đi picnic, dã ngoại.',
     detail3: 'Có cần gạt điều chỉnh lửa to nhỏ linh hoạt, không lo cháy nổ khi dùng với cồn khô.',
-    detail4: 'Dễ vệ sinh, không bị gỉ sét, phù hợp với nhiều loại nồi trên thị trường.'
+    detail4: 'Dễ vệ sinh, không bị gỉ sét, phù hợp với nhiều loại nồi trên thị trường.',
+    isForSale: true,
+    salePrice: 190,
   },
   {
     id: 'thung-da-8l',
@@ -1408,6 +1428,8 @@ export const products = [
     detail3: 'Vỏ lon thiết kế nổi bật, có logo NAMILUX và hướng dẫn an toàn in rõ ràng trên thân lon. Sử dụng rộng rãi tại khách sạn, nhà hàng, quán ăn và gia đình.',
     detail4: 'Chỉ sử dụng 1 lần, không nạp lại. Tránh va chạm, để nơi thoáng mát dưới 40°C, không dùng lon móp, rỉ sét. Đọc kỹ hướng dẫn để đảm bảo an toàn tuyệt đối.',
     isRental: true,
+    isForSale: true,
+    salePrice: 30,
   },
 
   {
@@ -1447,6 +1469,8 @@ export const products = [
     detail3: 'Không gây cay mắt, khó chịu khi mồi lửa. Thân thiện với sức khỏe và môi trường.',
     detail4: 'Viên mồi than 20g, hình khối vuông, tiện bỏ túi hoặc balo mang theo mọi hành trình.',
     isRental: true,
+    isForSale: true,
+    salePrice: 5,
   },
 
   {
@@ -1465,7 +1489,9 @@ export const products = [
     detail1: 'Board game Ma Sói TOPBOARD1 (7–20 người chơi), phù hợp nhóm bạn, gia đình. Chất liệu bài cứng, nhẹ, dễ mang theo.',
     detail2: 'Chơi lý tưởng từ 11–15 người, thời lượng 30–90 phút, dành cho người từ 8 tuổi trở lên. Giúp tăng khả năng quan sát và phân tích tình huống.',
     detail3: 'Là trò chơi nhập môn phổ biến nhất trong thế giới board game, với nhiều phiên bản như Werewolf One Night, Character, Daybreak...',
-    detail4: 'Giúp phát triển tư duy logic, kỹ năng giao tiếp, giải quyết vấn đề, toán học cơ bản và kỹ năng xã hội qua các vòng tranh luận và suy luận.'
+    detail4: 'Giúp phát triển tư duy logic, kỹ năng giao tiếp, giải quyết vấn đề, toán học cơ bản và kỹ năng xã hội qua các vòng tranh luận và suy luận.',
+    isForSale: true,
+    salePrice: 20,
   },
   {
     id: 'tui-dung-nuoc-co-voi-naturehike-cnk2450cf027',
