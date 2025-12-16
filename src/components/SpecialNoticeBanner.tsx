@@ -9,18 +9,20 @@ export default function PromoBanner() {
       tag: 'SALE',
     },
    
-      {
-      icon: '🚚',
-      title: 'Có giao hàng tận nơi',
-      desc: 'Phí giao hàng tuỳ khoảng cách',
-      tag: 'SUPPORT',
-    },
+     
 
     {
       icon: '🎪',
       title: 'Không phụ thu mùa lễ',
       desc: 'Ngày lễ không tính phụ thu',
       tag: 'FREE',
+    },
+
+    {
+      icon: '🚚',
+      title: 'Có giao hàng tận nơi',
+      desc: 'Phí giao hàng tính theo giá Grab Express',
+      tag: 'SUPPORT',
     },
     
     // {

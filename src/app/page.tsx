@@ -13,7 +13,7 @@ import BlogCamTrai from '@/components/BlogCamTrai'
 
 export const metadata: Metadata = {
   description:
-  'Dịch vụ cho thuê lều cắm trại chuyên nghiệp tại Đà Nẵng – đồng hành cùng bạn trong mọi chuyến phiêu lưu.',
+  'Cửa hàng cho thuê lều cắm trại và bán đồ cắm trại tại Đà Nẵng – đồng hành cùng bạn trong mọi chuyến phiêu lưu.',
 }
 
 export default async function Home() {

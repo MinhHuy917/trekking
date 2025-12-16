@@ -1,14 +1,16 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
+import { useState, useEffect } from 'react'
 import { usePathname } from 'next/navigation'
-import logo from '@/images/logo.png'
+import Image from 'next/image'
+import { Menu, X, LogOut } from 'lucide-react'
+import logo from '/src/images/logo.png'
 
 interface NavItem {
   label: string
   href: string
+  isActive?: boolean
 }
 
 const navItems: NavItem[] = [
@@ -22,241 +24,179 @@ const navItems: NavItem[] = [
 
 export default function CampingHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [isScrolled, setIsScrolled] = useState(false)
   const pathname = usePathname()
 
+  // Khóa cuộn trang khi menu mobile mở để tập trung vào menu
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10)
-    }
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
-
-  useEffect(() => {
-    setIsMenuOpen(false)
-  }, [pathname])
-
-  const scrollLock = React.useRef(0)
-
-  useEffect(() => {
-    if (typeof window === 'undefined') return
-    const body = document.body
-
-    if (isMenuOpen) {
-      scrollLock.current = window.scrollY
-      body.style.position = 'fixed'
-      body.style.top = `-${scrollLock.current}px`
-      body.style.width = '100%'
-      body.style.overflow = 'hidden'
-      body.style.touchAction = 'none'
-    } else {
-      body.style.position = ''
-      body.style.top = ''
-      body.style.width = ''
-      body.style.overflow = ''
-      body.style.touchAction = ''
-      window.scrollTo(0, scrollLock.current)
-    }
-
+    document.body.style.overflow = isMenuOpen ? 'hidden' : 'auto';
     return () => {
-      body.style.position = ''
-      body.style.top = ''
-      body.style.width = ''
-      body.style.overflow = ''
-      body.style.touchAction = ''
-    }
-  }, [isMenuOpen])
+      document.body.style.overflow = 'auto'; // Cleanup
+    };
+  }, [isMenuOpen]);
 
-  const handleProductLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    if (href === '/#products') {
-      e.preventDefault()
-      setIsMenuOpen(false)
-      
-      if (pathname === '/') {
-        setTimeout(() => {
-          const productsSection = document.getElementById('products-section')
-          if (productsSection) {
-            const headerHeight = 100
-            const elementPosition = productsSection.getBoundingClientRect().top
-            const offsetPosition = elementPosition + window.pageYOffset - headerHeight
-            window.scrollTo({
-              top: offsetPosition,
-              behavior: 'smooth'
-            })
-          }
-        }, 100)
-      } else {
-        window.location.href = '/#products'
-      }
-    }
+  const handleItemClick = () => {
+    setIsMenuOpen(false)
   }
 
+  const isActive = (href: string) => {
+    if (href === '/') {
+      return pathname === '/'
+    }
+    return pathname?.startsWith(href) || (href === '/#products' && pathname === '/')
+  }
+
+  const FacebookIcon = () => (
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+    </svg>
+  )
+
   return (
-    <>
-      <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-          isScrolled
-            ? 'bg-white/98 backdrop-blur-md shadow-lg border-b-2 border-green-100'
-            : 'bg-gradient-to-b from-green-50/90 via-emerald-50/70 to-transparent'
-        }`}
-      >
-        {/* Top accent line */}
-        <div className="h-1 bg-gradient-to-r from-green-400 via-emerald-400 to-teal-400"></div>
-        
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex h-20 md:h-24 items-center justify-between">
-            {/* Logo Section - Left */}
-            <Link
-              href="/"
-              className="flex items-center space-x-3 group"
-              aria-label="ĐiĐi Camping"
-            >
+    <header className="fixed top-0 left-0 w-full z-50">
+      {/* Dark top bar with gradient */}
+      <div className="h-1 bg-gradient-to-r from-green-900 via-green-800 to-purple-900"></div>
+      
+      {/* Main header */}
+      <div className="bg-gradient-to-b from-green-50 to-white shadow-sm">
+        <div className="container mx-auto flex h-20 items-center justify-between px-4 lg:px-8">
+          
+          {/* Logo */}
+          <Link href="/" onClick={handleItemClick} className="flex items-center">
+            <div className="rounded-xl shadow-lg border-2 border-green-500 relative overflow-hidden">
+              {/* Subtle green glow effect */}
+              <div className="absolute inset-0 bg-green-400 opacity-10 blur-sm rounded-xl"></div>
               <div className="relative">
-                {/* Glow effect */}
-                <div className="absolute -inset-1 bg-gradient-to-br from-green-400 to-emerald-500 rounded-xl blur opacity-30 group-hover:opacity-50 transition-opacity duration-300"></div>
-                <div className="relative w-14 h-14 md:w-16 md:h-16 rounded-xl overflow-hidden border-2 border-green-200 bg-white shadow-md group-hover:shadow-xl group-hover:border-green-400 transition-all duration-300 group-hover:scale-105">
-                  <Image
-                    src={logo}
-                    alt="ĐiĐi Camping"
-                    width={64}
-                    height={64}
-                    className="w-full h-full object-cover"
-                    priority
-                  />
-                </div>
+                <Image 
+                  src={logo} 
+                  alt="Đi Đi CAMPING" 
+                  width={120}
+                  height={60}
+                  className="h-12 w-auto object-contain"
+                  priority
+                />
               </div>
-            </Link>
-
-            {/* Desktop Navigation - Center */}
-            <nav className="hidden lg:flex items-center space-x-2">
-              <div className="flex items-center space-x-1 bg-white/80 backdrop-blur-sm rounded-full px-2 py-2 shadow-lg border border-green-100">
-                {navItems.map((item) => {
-                  const isActive = pathname === item.href || (item.href === '/#products' && pathname === '/')
-                  return (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      onClick={(e) => handleProductLinkClick(e, item.href)}
-                      className={`
-                        relative px-5 py-2.5 rounded-full text-sm font-semibold transition-all duration-300
-                        ${isActive
-                          ? 'text-white bg-gradient-to-r from-green-600 to-emerald-600 shadow-md'
-                          : 'text-gray-700 hover:text-green-700 hover:bg-green-50'
-                        }
-                        hover:scale-105 active:scale-95
-                      `}
-                    >
-                      {item.label}
-                      {isActive && (
-                        <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-2 h-2 bg-white rounded-full shadow-lg"></div>
-                      )}
-                    </Link>
-                  )
-                })}
-              </div>
-            </nav>
-
-            {/* Right Section */}
-            <div className="flex items-center space-x-3">
-              {/* Desktop CTA */}
-              <Link
-                href="https://www.facebook.com/groups/695950148016396"
-                target="_blank"
-                className="hidden lg:flex items-center space-x-2 px-5 py-2.5 bg-gradient-to-r from-blue-500 via-blue-500 to-blue-600 text-white font-bold rounded-full shadow-lg shadow-blue-500/30 hover:shadow-xl hover:shadow-blue-500/40 hover:scale-105 active:scale-95 transition-all duration-300"
-              >
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                </svg>
-                <span>Cộng đồng</span>
-              </Link>
-
-              {/* Mobile menu button */}
-              <button
-                type="button"
-                className="lg:hidden relative w-11 h-11 flex items-center justify-center rounded-xl bg-white shadow-md border border-green-100 hover:shadow-lg hover:border-green-200 active:scale-95 transition-all"
-                aria-expanded={isMenuOpen}
-                aria-label="Toggle menu"
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-              >
-                <div className="relative w-5 h-4">
-                  <span
-                    className={`absolute left-0 w-5 h-0.5 bg-green-700 rounded-full transform transition-all duration-300 ${
-                      isMenuOpen ? 'rotate-45 top-1.5' : 'top-0'
-                    }`}
-                  />
-                  <span
-                    className={`absolute left-0 top-1.5 w-5 h-0.5 bg-green-700 rounded-full transition-all duration-300 ${
-                      isMenuOpen ? 'opacity-0' : 'opacity-100'
-                    }`}
-                  />
-                  <span
-                    className={`absolute left-0 w-5 h-0.5 bg-green-700 rounded-full transform transition-all duration-300 ${
-                      isMenuOpen ? '-rotate-45 top-1.5' : 'top-3'
-                    }`}
-                  />
-                </div>
-              </button>
             </div>
+          </Link>
+
+          {/* Navigation cho màn hình lớn (Desktop) */}
+          <nav className="hidden lg:flex items-center gap-2 bg-white rounded-full px-3 py-1.5 shadow-md border border-gray-100">
+            {navItems.map((item) => {
+              const active = isActive(item.href)
+              return (
+                <Link 
+                  key={item.label} 
+                  href={item.href}
+                  className={`relative transition-all duration-200 text-sm tracking-tight ${
+                    active 
+                      ? 'bg-green-600 text-white rounded-full px-3.5 py-1.5 font-medium' 
+                      : 'text-gray-700 hover:text-green-700 px-2.5 py-1.5 font-normal'
+                  }`}
+                >
+                  {item.label}
+                  {active && (
+                    <span className="absolute left-1/2 -translate-x-1/2 bottom-[-6px] w-1 h-1 bg-white rounded-full"></span>
+                  )}
+                </Link>
+              )
+            })}
+          </nav>
+
+          {/* Nút Cộng đồng Facebook (Desktop) */}
+          <div className="hidden lg:block">
+            <Link 
+              href="https://www.facebook.com" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1.5 rounded-full bg-blue-600 px-4 py-2 text-xs font-medium text-white shadow-lg hover:bg-blue-700 transition duration-300 tracking-tight"
+            >
+              <FacebookIcon />
+              <span>Cộng đồng</span>
+            </Link>
           </div>
+
+          {/* Nút Menu cho màn hình nhỏ (Mobile) */}
+          <button 
+            className="lg:hidden text-green-800 p-2 rounded-lg hover:bg-green-50 transition duration-300"
+            onClick={() => setIsMenuOpen(true)}
+            aria-label="Toggle menu"
+          >
+            <Menu size={24} />
+          </button>
+        </div>
+      </div>
+
+      {/* -------------------- MOBILE SIDEBAR (THANH BÊN) -------------------- */}
+      
+      {/* Overlay - Lớp mờ đen khi menu mở */}
+      {isMenuOpen && (
+        <div 
+          className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden transition-opacity duration-300"
+          onClick={() => setIsMenuOpen(false)}
+          aria-hidden="true"
+        />
+      )}
+
+      {/* Sidebar chính */}
+      <div
+        className={`fixed top-0 right-0 h-full w-64 bg-white z-50 shadow-xl transform transition-transform duration-300 ease-in-out lg:hidden 
+          ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`
+        }
+      >
+        {/* Header/Nút Đóng của Sidebar */}
+        <div className="flex justify-between items-center p-4 border-b border-gray-200 bg-gradient-to-r from-green-50 to-white">
+          <div className="flex items-center gap-2 rounded-xl shadow-lg border-2 border-green-500 relative overflow-hidden">
+            <Image 
+              src={logo} 
+              alt="Đi Đi CAMPING" 
+              width={80}
+              height={40}
+              className="h-8 w-auto object-contain rounded-lg"
+            />
+          </div>
+          <button 
+            className="text-gray-700 hover:text-green-700 p-1 rounded-full hover:bg-gray-100 transition"
+            onClick={() => setIsMenuOpen(false)}
+            aria-label="Close menu"
+          >
+            <X size={24} />
+          </button>
         </div>
 
-        {/* Mobile Navigation */}
-        {isMenuOpen && (
-          <div className="lg:hidden fixed inset-0 bg-gradient-to-b from-white via-green-50 to-emerald-50 z-40 overflow-y-auto pt-20">
-            <div className="sticky top-0 bg-white/80 backdrop-blur flex justify-end px-4 py-3 border-b border-green-100">
-              <button
-                type="button"
-                aria-label="Đóng menu"
-                onClick={() => setIsMenuOpen(false)}
-                className="w-10 h-10 flex items-center justify-center rounded-full border border-green-200 text-green-700 bg-white shadow-sm hover:shadow transition"
+        {/* Nội dung menu */}
+        <nav className="flex flex-col space-y-1 p-4 pt-6">
+          {navItems.map((item) => {
+            const active = isActive(item.href)
+            return (
+              <Link 
+                key={item.label} 
+                href={item.href} 
+                onClick={handleItemClick}
+                className={`block p-2.5 rounded-lg transition duration-200 text-sm tracking-tight ${
+                  active
+                    ? 'bg-green-600 text-white font-medium'
+                    : 'text-gray-700 hover:bg-green-50 hover:text-green-700 font-normal'
+                }`}
               >
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-            <div className="px-6 pb-10 space-y-3">
-              {navItems.map((item) => {
-                const isActive = pathname === item.href || (item.href === '/#products' && pathname === '/')
-                return (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    onClick={(e) => {
-                      handleProductLinkClick(e, item.href)
-                      if (item.href !== '/#products') setIsMenuOpen(false)
-                    }}
-                    className={`
-                      block px-6 py-4 rounded-2xl text-base font-bold transition-all duration-300
-                      ${isActive
-                        ? 'text-white bg-gradient-to-r from-green-600 to-emerald-600 shadow-xl scale-105'
-                        : 'text-gray-700 bg-white/90 backdrop-blur-sm shadow-lg hover:bg-green-50 active:scale-95'
-                      }
-                    `}
-                  >
-                    {item.label}
-                  </Link>
-                )
-              })}
-              
-              <Link
-                href="https://www.facebook.com/groups/695950148016396"
-                target="_blank"
-                className="flex items-center justify-center space-x-2 px-6 py-4 rounded-2xl bg-gradient-to-r from-blue-500 to-blue-600 text-white font-bold shadow-xl text-base hover:scale-105 active:scale-95 transition-all mt-6"
-              >
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                </svg>
-                <span>Cộng đồng cắm trại</span>
+                {item.label}
               </Link>
-            </div>
+            )
+          })}
+          
+          {/* Nút Cộng đồng Facebook trong mobile menu */}
+          <div className="pt-4">
+            <Link 
+              href="https://www.facebook.com" 
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={handleItemClick}
+              className="flex items-center justify-center gap-2 rounded-full bg-blue-600 px-4 py-2.5 text-sm font-medium text-white shadow-lg hover:bg-blue-700 transition duration-300 tracking-tight"
+            >
+              <FacebookIcon />
+              <span>Cộng đồng</span>
+            </Link>
           </div>
-        )}
-      </header>
-      
-      {/* Spacer */}
-      <div className="h-20 md:h-24"></div>
-    </>
+        </nav>
+      </div>
+    </header>
   )
 }
