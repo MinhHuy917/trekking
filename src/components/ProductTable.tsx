@@ -19,16 +19,7 @@ const CATEGORY_DEFS = [
 ] as const;
 
 
-type Product = {
-  id: any
-  name: string
-  catalogue: string
-  image: any
-  price: number
-  quantity: number
-  isRental?: boolean
-  isForSale?: boolean
-}
+type Product = NonNullable<(typeof products)[number]>
 
 const FilterBar: React.FC<{ selected: string; onChange: (v: string) => void; }> = ({ selected, onChange }) => {
   return (
@@ -91,6 +82,8 @@ const ProductList: React.FC = () => {
     ice: (p) => p.name.includes('Thùng') || p.name.includes('Túi đựng nước'),
   }
 
+  const safeProducts: Product[] = products.filter((p): p is Product => Boolean(p))
+
   const combinedFilter = (p: Product) => {
     const matchesCategory = categoryFilterMap[selectedCategory](p)
     const matchesText =
@@ -100,8 +93,8 @@ const ProductList: React.FC = () => {
     return matchesCategory && matchesText
   }
 
-
-  const filteredProducts = products.filter(combinedFilter)
+  // Lọc bỏ phần tử null/undefined với type predicate để map an toàn
+  const filteredProducts: Product[] = safeProducts.filter((p) => combinedFilter(p));
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 font-sans text-[#1F3329]">
@@ -197,7 +190,7 @@ const ProductList: React.FC = () => {
         <p className="text-center text-gray-500">Không tìm thấy sản phẩm phù hợp.</p>
       )}
       
-      <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-md space-y-6 my-12">
+            <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-md space-y-6 my-12">
         <h2 className="text-2xl font-bold text-gray-800">Chính sách thuê lều</h2>
 
         {/* 1. Đặt cọc & thanh toán */}
