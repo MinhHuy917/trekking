@@ -58,15 +58,24 @@ export default function ShopPage() {
     return matchesCategory && matchesText
   }
 
-  let filteredProducts = products.filter(combinedFilter)
+  // Ép kiểu để tránh union có phần tử undefined trong mảng products
+  let filteredProducts: Product[] = (products.filter((p) => p && combinedFilter(p as Product)) as Product[])
 
   // Sort products
   if (sortBy === 'newest') {
     filteredProducts = [...filteredProducts].reverse()
   } else if (sortBy === 'price-low') {
-    filteredProducts = [...filteredProducts].sort((a, b) => (a.salePrice || a.price) - (b.salePrice || b.price))
+    filteredProducts = [...filteredProducts].sort((a, b) => {
+      const priceA = a.salePrice ?? a.price
+      const priceB = b.salePrice ?? b.price
+      return priceA - priceB
+    })
   } else if (sortBy === 'price-high') {
-    filteredProducts = [...filteredProducts].sort((a, b) => (b.salePrice || b.price) - (a.salePrice || a.price))
+    filteredProducts = [...filteredProducts].sort((a, b) => {
+      const priceA = a.salePrice ?? a.price
+      const priceB = b.salePrice ?? b.price
+      return priceB - priceA
+    })
   }
 
   return (
