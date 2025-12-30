@@ -76,7 +76,7 @@ export default function Work() {
 </p>
 
 <ul>
-  <li><strong>Địa chỉ:</strong> 86 Lê Thiệt, Liên Chiểu, Đà Nẵng (<a href="https://maps.google.com/?q=86+Le+Thiet,+Lien+Chieu,+Da+Nang" target="_blank">Google Maps</a>)</li>
+  <li><strong>Địa chỉ:</strong> 43 Tống Duy Tân, Liên Chiểu, Đà Nẵng (<a href="https://maps.google.com/?q=86+Le+Thiet,+Lien+Chieu,+Da+Nang" target="_blank">Google Maps</a>)</li>
   <li><strong>SĐT/Zalo:</strong> 0909.223.917</li>
   <li><strong>Giờ làm việc:</strong> Thứ 2 – CN: 7:00 – 18:00</li>
   <li><strong>Facebook:</strong> <a href="https://facebook.com/thueleucamtraidanang" target="_blank">/thueleucamtraidanang</a></li>

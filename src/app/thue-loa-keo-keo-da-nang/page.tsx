@@ -122,7 +122,7 @@ export default function ThueLoaKeoKeoDaNang() {
             <h3 className="text-2xl font-bold text-green-700 mb-6">Thông Tin Liên Hệ</h3>
             <ul className="list-disc pl-6 text-gray-700 space-y-4">
               <li>
-                <strong>Địa chỉ:</strong> 86 Lê Thiệt, Liên Chiểu, TP. Đà Nẵng (
+                <strong>Địa chỉ:</strong> 43 Tống Duy Tân, Liên Chiểu, TP. Đà Nẵng (
                 <a href="https://g.co/kgs/BkDHJhp" className="text-blue-600 underline">
                   Google Maps
                 </a>

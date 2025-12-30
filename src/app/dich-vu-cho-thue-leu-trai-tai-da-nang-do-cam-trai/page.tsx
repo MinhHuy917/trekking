@@ -156,7 +156,7 @@ export default function DididiCampingRental() {
 
         <h3 className="text-lg font-semibold text-green-700">1.1 Thông tin liên hệ</h3>
         <ul className="list-disc pl-6">
-          <li>Địa chỉ: 86 Lê Thiệt, Liên Chiểu, TP. Đà Nẵng (<a href="https://g.co/kgs/BkDHJhp" className="text-blue-600 underline">Google Maps</a>)</li>
+          <li>Địa chỉ: 43 Tống Duy Tân, Liên Chiểu, TP. Đà Nẵng (<a href="https://g.co/kgs/BkDHJhp" className="text-blue-600 underline">Google Maps</a>)</li>
           <li>SĐT/Zalo: <a href="tel:0909223917" className="text-blue-600">0909.223.917</a></li>
           <li>Giờ làm việc: Thứ 2–CN: 7:00–18:00</li>
           <li>Facebook: <a href="https://facebook.com/thueleucamtraidanang" className="text-blue-600">/thueleucamtraidanang</a></li>
