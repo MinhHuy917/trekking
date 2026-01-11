@@ -158,20 +158,9 @@ const ProductList: React.FC = () => {
     <span className="text-green-600 font-medium text-xs sm:text-sm">Miễn phí</span>
   ) : product.originalPrice && product.originalPrice > product.price ? (
     <div className="flex flex-col">
-      {/* Giá gốc */}
-      <span className="text-gray-400 line-through text-[11px] sm:text-xs">
-        {product.originalPrice}k/ngày
-      </span>
-
-      {/* Giá sale + badge giảm */}
-      <div className="flex items-center gap-1.5">
         <span className="text-orange-600 font-semibold text-sm sm:text-base">
           {product.price}k/ngày
         </span>
-        <span className="bg-red-500 text-white text-[9px] sm:text-[10px] font-semibold px-1.5 py-0.5 rounded-full">
-          -{Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100)}%
-        </span>
-      </div>
     </div>
   ) : (
     <span className="text-orange-600 font-semibold text-sm sm:text-base">
