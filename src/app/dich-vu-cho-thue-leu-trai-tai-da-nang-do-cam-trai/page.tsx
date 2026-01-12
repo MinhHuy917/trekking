@@ -93,7 +93,7 @@ const rentalItems = [
   // Tiện ích
   { id: 'sac-du-phong', name: 'Sạc dự phòng 20.000 mAh', price: '30.000 VNĐ', type: 'ngày', image: sacduphong },
   { id: 'thue-loa-nghe-nhac-da-nang', name: 'Loa Tronsmart T7 Mini', price: '50.000 VNĐ', type: 'ngày', image: loa },
-  { id: 'loa-jbl-partyBox-encore-2', name: 'Loa JBL PartyBox Encore 2', price: '350.000 VNĐ', type: 'ngày', image: loajblpartyboxencore2 },
+  { id: 'loa-jbl-partyBox-encore-2', name: 'Loa JBL PartyBox Encore 2', price: '290.000 VNĐ', type: 'ngày', image: loajblpartyboxencore2 },
   { id: 'loa-jbl-partyBox-stage-320', name: 'Loa JBL PartyBox Stage 320', price: '490.000 VNĐ', type: 'ngày', image: loajblpartyboxstage320 },
   { id: 'loa-jbl-partyBox-720', name: 'Loa JBL PartyBox 720', price: '1200.000 VNĐ', type: 'ngày', image: loajblpartybox720 },
   { id: 'loa-jbl-party-box-ultimate', name: 'Loa JBL PartyBox Ultimate', price: '1600.000 VNĐ', type: 'ngày', image: loajblpartyboxultimate },
