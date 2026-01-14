@@ -162,7 +162,7 @@ const banGhe = [
   {
     id: 'ban-camping-xep-gon',
     name: 'Bàn Vintage',
-    catalogue: '(90x60cm, 4kg)',
+    catalogue: '(50x30x30)',
     image: banvintage.src,
     image1: banvintage1.src,
     image2: banvintage2.src,
