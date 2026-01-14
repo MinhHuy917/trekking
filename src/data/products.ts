@@ -86,6 +86,13 @@ import gheanh3 from '/src/images/ghe/3.png'
 import gheanh4 from '/src/images/ghe/4.png'
 import gheanh5 from '/src/images/ghe/5.png'
 
+import ghevintageanh from '/src/images/ghevintage/0.png'
+import ghevintageanh1 from '/src/images/ghevintage/1.png'
+import ghevintageanh2 from '/src/images/ghevintage/2.png'
+import ghevintageanh3 from '/src/images/ghevintage/3.png'
+import ghevintageanh4 from '/src/images/ghevintage/4.png'
+import ghevintageanh5 from '/src/images/ghevintage/5.png'
+
 import bo2caychongtang from '/src/images/bo2caychongtang/0.jpeg'
 import bo2caychongtanganh1 from '/src/images/bo2caychongtang/1.png'
 import bo2caychongtanganh2 from '/src/images/bo2caychongtang/2.png'
@@ -105,9 +112,9 @@ import gheNH9 from '/src/images/gheNH16J001-J/9.jpg'
 import gheNH10 from '/src/images/gheNH16J001-J/10.jpg'
 import gheNH11 from '/src/images/gheNH16J001-J/11.jpg'
 
-import ghegapgon from '/src/images/ghegapgon/0.jpg'
-import ghegapgon1 from '/src/images/ghegapgon/1.jpg'
-import ghegapgon2 from '/src/images/ghegapgon/2.jpg'
+import ghegapgon from '/src/images/ghegapgon/0.png'
+import ghegapgon1 from '/src/images/ghegapgon/2.jpg'
+import ghegapgon2 from '/src/images/ghegapgon/1.jpg'
 import ghegapgon3 from '/src/images/ghegapgon/3.jpg'
 import ghegapgon4 from '/src/images/ghegapgon/4.jpg'
 import ghegapgon5 from '/src/images/ghegapgon/5.jpg'
@@ -118,6 +125,13 @@ import bananh2 from '/src/images/ban/2.png'
 import bananh3 from '/src/images/ban/3.png'
 import bananh4 from '/src/images/ban/4.png'
 import bananh5 from '/src/images/ban/5.png'
+
+import banvintage from '/src/images/banvintage/0.png'
+import banvintage1 from '/src/images/banvintage/1.png'
+import banvintage2 from '/src/images/banvintage/2.png'
+import banvintage3 from '/src/images/banvintage/3.png'
+import banvintage4 from '/src/images/banvintage/4.png'
+import banvintage5 from '/src/images/banvintage/5.png'
 
 
 
@@ -718,8 +732,47 @@ export const products = [
     detail4: 'Trọng lượng chỉ 1.3kg, ai cũng có thể mang vác thoải mái trong các chuyến đi. Tông màu kaki trung tính, hài hòa với thiên nhiên – phù hợp với mọi phong cách dã ngoại.',
   },
 
-
-
+  {
+    id: 'ghe-camping-xep-gon',
+    name: 'Ghế Vintage',
+    catalogue: '(2kg)',
+    image: ghevintageanh.src,
+    image1: ghevintageanh1.src,
+    image2: ghevintageanh2.src,
+    image3: ghevintageanh3.src,
+    image4: ghevintageanh4.src,
+    image5: ghevintageanh5.src,
+    originalPrice: 35,
+    price: 40,
+    quantity: 1,
+  
+    detail1: 'Gấp gọn siêu nhanh chỉ trong 3 giây với thiết kế gấp thông minh, tiết kiệm diện tích, dễ dàng mang theo khi đi du lịch, picnic hay dã ngoại.',
+    
+    detail2: 'Khung sắt sơn tĩnh điện siêu chắc chắn, chịu tải lên đến 150kg. Kết hợp vải Oxford 600D cao cấp – không thấm nước, không bám bụi, bền bỉ khi sử dụng ngoài trời.',
+    
+    detail3: 'Tay vịn gỗ sồi tự nhiên êm ái, sang trọng, dễ vệ sinh. Thiết kế hiện đại, phù hợp dùng trong quán cafe, sân vườn, ban công, câu cá, camping.',
+    
+    detail4: 'Thông số: Kích thước sử dụng 55 x 44 x 62 cm. Kích thước gấp gọn 55 x 56 cm. Trọng lượng 2kg. Màu sắc: Khung Vàng Vải Đen hoặc Khung Đen Vải Đen.'
+  },
+  
+  {
+    id: 'ban-camping-xep-gon',
+    name: 'Bàn Vintage',
+    catalogue: '(90x60cm, 4kg)',
+    image: banvintage.src,
+    image1: banvintage1.src,
+    image2: banvintage2.src,
+    image3: banvintage3.src,
+    image4: banvintage4.src,
+    image5: banvintage5.src,
+    originalPrice: 60,
+    price: 40,
+    quantity: 1,
+    detail1: 'Thiết kế gấp gọn thông minh, dễ mang theo khi dã ngoại, camping, picnic hoặc sử dụng trong lều – thu gọn nhanh khi không dùng, tiết kiệm đến 80% không gian.',
+    detail2: 'Có thể sử dụng linh hoạt như bàn mini hoặc nơi trữ đồ: đựng đồ ăn, nước uống, vật dụng cá nhân; phù hợp cả ngoài trời lẫn trong nhà, trên xe.',
+    detail3: 'Kết cấu chắc chắn, chịu tải tốt; có thể xếp chồng sử dụng khi cần, chống bụi và chống ẩm – an tâm khi thuê dùng dài ngày.',
+    detail4: 'Chất liệu bền, thân thiện môi trường; màu sắc trang nhã, phù hợp nhiều không gian camping – trải nghiệm thuê đồ gọn gàng, tiện lợi và thẩm mỹ.',
+  },  
   {
     id: 'thue-ban-camping-da-nang',
     name: 'Bàn nhôm',
