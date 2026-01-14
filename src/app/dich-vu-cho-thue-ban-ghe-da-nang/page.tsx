@@ -176,7 +176,26 @@ const banGhe = [
     detail2: 'Có thể sử dụng linh hoạt như bàn mini hoặc nơi trữ đồ: đựng đồ ăn, nước uống, vật dụng cá nhân; phù hợp cả ngoài trời lẫn trong nhà, trên xe.',
     detail3: 'Kết cấu chắc chắn, chịu tải tốt; có thể xếp chồng sử dụng khi cần, chống bụi và chống ẩm – an tâm khi thuê dùng dài ngày.',
     detail4: 'Chất liệu bền, thân thiện môi trường; màu sắc trang nhã, phù hợp nhiều không gian camping – trải nghiệm thuê đồ gọn gàng, tiện lợi và thẩm mỹ.',
-  },  
+  }, 
+  
+  {
+    id: 'thue-ban-camping-da-nang',
+    name: 'Bàn nhôm',
+    catalogue: '(90x60cm, 4kg)',
+    image: ban.src,
+    image1: bananh1.src,
+    image2: bananh2.src,
+    image3: bananh3.src,
+    image4: bananh4.src,
+    image5: bananh5.src,
+    originalPrice: 60,
+    price: 50,
+    quantity: 1,
+    detail1: 'Bàn xếp dã ngoại gấp gọn, chất liệu hợp kim nhôm cao cấp siêu nhẹ, tiện lợi cho picnic, du lịch, cắm trại hoặc sử dụng tại nhà.',
+    detail2: 'Khung bàn chắc chắn làm từ thép CACBON không gỉ, chịu lực tốt, tải trọng lên đến 50kg, trọng lượng bàn chỉ 4kg.',
+    detail3: 'Màu sắc: màu gỗ trang nhã – thiết kế gọn gàng, chắc chắn, là lựa chọn lý tưởng cho phong cách sống outdoor năng động.',
+    detail4: 'Mặt bàn rộng rãi 90x60cm, cao 43cm – đủ để bày nhiều vật dụng cần thiết trong các buổi picnic, ăn uống hoặc ngồi chơi thư giãn ngoài trời.',
+  },
   
 
   {
