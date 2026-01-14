@@ -345,9 +345,6 @@ export default function ThueLBanGheDaNang() {
             </Link>
           ))}
         </div>
-      ) : (
-        <p className="text-center text-gray-500">Không tìm thấy sản phẩm phù hợp.</p>
-      )
       
             <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-md space-y-6 my-12">
         <h2 className="text-2xl font-bold text-gray-800">Chính sách thuê lều</h2>
