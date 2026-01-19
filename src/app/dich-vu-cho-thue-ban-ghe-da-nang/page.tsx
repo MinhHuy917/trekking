@@ -107,7 +107,7 @@ const banGhe = [
     image4: ghegapgon4.src,
     image5: ghegapgon5.src,
     originalPrice: 30,
-    price: 25,
+    price: 30,
     quantity: 1,
     detail1: 'Ghế có kết cấu chắc chắn với khung thép cứng cáp chịu lực tốt và được làm từ chất liệu Vải Oxford 600D chống mài mòn, độ bền cao.',
     detail2: 'Trọng lượng ghế rất nhẹ, chỉ 1.5 kg (hoặc 1.3kg theo catalogue), nhưng có khả năng chịu tải trọng tối đa lên đến 130 kg.',

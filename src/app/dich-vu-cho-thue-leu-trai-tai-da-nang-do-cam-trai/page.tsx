@@ -69,7 +69,7 @@ const rentalItems = [
   { id: 'tam-cach-nhiet', name: 'Tấm cách nhiệt', price: 'Miễn phí', type: 'ngày', image: cachnhiet },
   // Bàn ghế
   {  id: 'thue-ghe-camping-da-nang', name: 'Ghế mặt trăng', price: '20.000 VNĐ', type: 'ngày', image: ghe },
-  {  id: 'ghe-camping-gap-gon', name: 'Ghế gấp gọn', price: '25.000 VNĐ', type: 'ngày', image: ghegapgon },
+  {  id: 'ghe-camping-gap-gon', name: 'Ghế gấp gọn', price: '30.000 VNĐ', type: 'ngày', image: ghegapgon },
   {  id: 'ghe-naturehike-nh16j001-j', name: 'Ghế NatureHike', price: '30.000 VNĐ', type: 'ngày', image: gheNH1 },
   { id: 'thue-ban-camping-da-nang', name: 'Bàn nhôm 90×60 cm', price: '50.000 VNĐ', type: 'ngày', image: ban },
   {  id: 'ban-nhom-naturehike-cnh22ju050', name: 'Bàn nhôm Naturehike CNH22JU050 - Size S', price: '60.000 VNĐ', type: 'ngày', image: banNH1 },
