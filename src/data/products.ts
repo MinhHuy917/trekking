@@ -695,7 +695,7 @@ export const products = [
   {
     id: 'ghe-camping-gap-gon',
     name: 'Ghế gấp gọn',
-    catalogue: '(1.3kg)',
+    catalogue: '(1.5kg)',
     image: ghegapgon.src,
     image1: ghegapgon1.src,
     image2: ghegapgon2.src,
