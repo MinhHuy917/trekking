@@ -724,7 +724,7 @@ export const products = [
     image4: gheNH2.src,
     image5: gheNH10.src,
     originalPrice: 35,
-    price: 30,
+    price: 35,
     quantity: 1,
     detail1: 'Ghế xếp mini câu cá, đi du lịch NatureHike NH16J001-J. Là một mẫu ghế dã ngoại được ưa chuộng trong cộng đồng camper với thiết kế đơn giản chắc chắn, gọn nhẹ giúp người sử dụng có thể luôn mang bên mình.',
     detail2: 'Khung được làm từ thép không gỉ dạng ống, chắc chắn, chịu lực tốt, chống han gỉ khi sử dụng ngoài trời. Kết hợp với lớp vải Offord 600D dày dặn, chống thấm nhẹ, dễ vệ sinh, bền màu theo thời gian.',
