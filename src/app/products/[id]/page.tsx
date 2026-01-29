@@ -42,7 +42,9 @@ export default function ProductPage({ params }: { params: { id: string } }) {
     }
   }, [])
 
-  const product = products.find((p: any) => p.id.toString() === params.id) ?? null
+  const product =
+  products.find((p: any) => p?.id?.toString() === params.id) ?? null
+
   
   // Determine if we're in sale mode - ONLY if mode=sale is in URL
   // Don't use isForSale flag alone, must have mode=sale in URL

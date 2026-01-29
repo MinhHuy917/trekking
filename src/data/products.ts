@@ -523,7 +523,7 @@ export const products = [
     salePrice: 2600,
   },
   {
-    id: 'vong-don',
+    id: 'thue-vong-da-nang',
     name: 'Võng đơn NatureHike',
     catalogue: '(Chống thấm, chịu lực tốt, gấp gọn)',
     image: vong.src,
@@ -541,7 +541,7 @@ export const products = [
     detail4: 'Màu sắc: xanh dương, cam, xám. Mã sản phẩm: NH21DC001 – thương hiệu uy tín NatureHike.'
   },
   {
-    id: 'goi-hoi-intex',
+    id: 'thue-goi-hoi-da-nang',
     name: 'Gối hơi Intex',
     catalogue: '(kèm bơm hơi)',
     image: goihoi.src,
@@ -560,7 +560,7 @@ export const products = [
   },
 
   {
-    id: 'tam-cach-nhiet',
+    id: 'thue-tam-cach-nhiet-da-nang',
     name: 'Tấm cách nhiệt',
     catalogue: '(cách hơi đất)',
     image: cachnhiet.src,
@@ -579,7 +579,7 @@ export const products = [
 
 
   {
-    id: 'tang-9m2',
+    id: 'thue-tam-tang-da-nang',
     name: 'Tăng 4-6 người - diện tích 9m2',
     catalogue: '(kèm búa, cọc , dây, và 2 trụ, 3m x 3m)',
     image: tang3m.src,
@@ -598,7 +598,7 @@ export const products = [
     videoId: '7lWx-hpQdAs',
   },
   {
-    id: 'tang-20m2',
+    id: 'thue-tarp-da-nang',
     name: 'Tăng 8-12 người - diện tích 20m2',
     catalogue: '(kèm búa, cọc , dây, và 2 trụ, 4.5mx4.5m)',
     image: tang.src,
@@ -617,7 +617,7 @@ export const products = [
     videoId: '7lWx-hpQdAs',
   },
   {
-    id: 'bo-2-cay-chong-tang',
+    id: 'thue-bo-2-cay-chong-tang-da-nang',
     name: 'Bộ 2 Cây Chống Tăng Naturehike',
     catalogue: '(bộ 2 cây, dài 2m)',
     image: bo2caychongtang.src,
@@ -636,7 +636,7 @@ export const products = [
   },
 
   {
-    id: 'tham-da-ngoai',
+    id: 'thue-tham-da-ngoai-da-nang',
     name: 'Thảm dã ngoại',
     catalogue: '(chống thấm, 2m1x2m)',
     image: thamdangoai.src,
@@ -655,7 +655,7 @@ export const products = [
   },
 
   {
-    id: 'tham-vintage',
+    id: 'thue-tham-vintage-da-nang',
     name: 'Thảm Vintage',
     catalogue: '(chống thấm, 2mx2m)',
     image: thamvintage.src,
@@ -693,7 +693,7 @@ export const products = [
   },
 
   {
-    id: 'ghe-camping-gap-gon',
+    id: 'thue-ghe-camping-gap-gon-da-nang',
     name: 'Ghế gấp gọn',
     catalogue: '(1.5kg)',
     image: ghegapgon.src,
@@ -714,7 +714,7 @@ export const products = [
 },
 
   {
-    id: 'ghe-naturehike-nh16j001-j',
+    id: 'thue-ghe-da-nang',
     name: 'Ghế Naturehike',
     catalogue: '(1.3kg)',
     image: gheNH1.src,
@@ -733,7 +733,7 @@ export const products = [
   },
 
   {
-    id: 'ghe-camping-xep-gon',
+    id: 'thue-ghe-cafe-da-nang',
     name: 'Ghế Vintage',
     catalogue: '(2kg)',
     image: ghevintageanh.src,
@@ -756,7 +756,7 @@ export const products = [
   },
   
   {
-    id: 'ban-camping-xep-gon',
+    id: 'thue-ban-camping-xep-gon-da-nang',
     name: 'Bàn Vintage',
     catalogue: '(52x35x30cm)',
     image: banvintage.src,
@@ -793,7 +793,7 @@ export const products = [
   },
 
   {
-    id: 'ban-nhom-naturehike-cnh22ju050',
+    id: 'thue-ban-nhom-da-nang',
     name: 'Bàn nhôm Naturehike CNH22JU050 - Size S',
     catalogue: '(40x30cm, 1kg)',
     image: banNH1.src,
@@ -813,7 +813,7 @@ export const products = [
   },
 
     {
-    id: 'ban-nhom-naturehike-NH16Z016L-Size-M',
+    id: 'thue-ban-nauturehike-da-nang',
     name: 'Bàn nhôm Naturehike NH16Z016L - Size M',
     catalogue: '(52x52x46cm, 2.5kg)',
     image: BanNaturehikeSizeManh1.src,
@@ -833,7 +833,7 @@ export const products = [
   },
 
     {
-    id: 'ban-nhom-naturehike-NH16Z016L-Size-L',
+    id: 'thue- ban-nhom-naturehike-da-nang',
     name: 'Bàn nhôm Naturehike NH16Z016L - Size L',
     catalogue: '(70x70x56cm, 3kg)',
     image: BanNaturehikeSizeLanh1.src,
@@ -853,7 +853,7 @@ export const products = [
   },
 
   {
-    id: 'khan-ban-tho-cam',
+    id: 'thue-khan-ban-tho-cam-da-nang',
     name: 'Khăn bàn thổ cẩm',
     catalogue: '(1m x 1m5)',
     image: khanban.src,
@@ -867,7 +867,7 @@ export const products = [
     detail5: 'Có thể sử dụng làm khăn trải bàn, tấm phủ đồ dùng, khăn phủ vali, khăn trải picnic, thảm chụp sản phẩm decor,...'
   },
   {
-    id: 'den-sinh-hoat',
+    id: 'thue-den-sinh-hoat-da-nang',
     name: 'Đèn Sinh Hoạt',
     catalogue: '(thời gian chiếu sáng 8-16h)',
     image: densinhhoatanh5.src,
@@ -886,7 +886,7 @@ export const products = [
   },
 
   {
-    id: 'den-leu',
+    id: 'thue-den-leu-da-nang',
     name: 'Đèn lều',
     catalogue: '(thời gian chiếu sáng 4-8h)',
     image: denleu.src,
@@ -907,7 +907,7 @@ export const products = [
 
 
   {
-    id: 'den-vintage',
+    id: 'thue-den-vintage-da-nang',
     name: 'Đèn Vintage',
     catalogue: '(thời gian chiếu sáng 4–8h)',
     image: dendeban.src,
@@ -926,7 +926,7 @@ export const products = [
   },
 
   {
-    id: 'den-led-tron',
+    id: 'thue-den-led-tron-da-nang',
     name: 'Đèn led tròn',
     catalogue: '(thời gian chiếu sáng 8-10h)',
     image: denled.src,
@@ -945,7 +945,7 @@ export const products = [
   },
 
   {
-    id: 'den-led-ngoi-sao',
+    id: 'thue-den-led-ngoi-sao-da-nang',
     name: 'Đèn led ngôi sao',
     catalogue: '(thời gian chiếu sáng 8-10h)',
     image: denngoisao.src,
@@ -965,7 +965,7 @@ export const products = [
 
 
   {
-    id: 'chan-treo-den',
+    id: 'thue-chan-treo-den-da-nang',
     name: 'Giá chân treo đèn 1m',
     catalogue: '(Có thể gắn bàn hoặc cắm đất đều được)',
     image: chantreodenannh3.src,
@@ -985,7 +985,7 @@ export const products = [
     detail6: 'Thiết kế tháo ráp nhanh chóng, dễ mang theo trong balo. Màu sắc: Đen – hiện đại và dễ phối với các thiết bị cắm trại khác.'
   },
   {
-    id: 'tru-cot-gia-treo-den',
+    id: 'thue-gia-treo-den-da-nang',
     name: 'Trụ treo đèn 1m8',
     catalogue: '(phù hợp treo đèn cao)',
     image: caytrutreodenanh2.src,
@@ -1007,7 +1007,7 @@ export const products = [
     salePrice: 390,
   },
   {
-    id: 'sac-du-phong',
+    id: 'thue-sac-du-phong-da-nang',
     name: 'Sạc dự phòng',
     catalogue: '(dung lượng 20.000 mAh,kèm dây sạc 3 đầu)',
     image: sacduphong.src,
@@ -1025,7 +1025,7 @@ export const products = [
   },
 
   {
-    id: 'thue-loa-nghe-nhac-da-nang',
+    id: 'thue-loa-nghe-nhac-mini-da-nang',
     name: 'Loa Tronsmart T7 Mini',
     catalogue: 'Loa công suất 15W,bật đèn sử dụng 12h và tắt đèn 18h',
     image: loa.src,
@@ -1044,7 +1044,7 @@ export const products = [
   },
 
   {
-    id: 'loa-jbl-partyBox-encore-2',
+    id: 'thue-loa-jbl-partyBox-encore-2-da-nang',
     name: 'Loa JBL PartyBox Encore 2',
     catalogue: 'Loa karaoke di động công suất 100W, pin rời 15 giờ, chống nước IPX4.',
     image: loajblpartyboxencore2.src,
@@ -1063,7 +1063,7 @@ export const products = [
 },
 
 {
-  id: 'loa-jbl-partyBox-stage-320',
+  id: 'thue-loa-jbl-partyBox-stage-320-da-nang',
   name: 'Loa JBL PartyBox Stage 320',
   catalogue: 'Loa karaoke di động công suất 240W RMS, pin 18 giờ, chống nước IPX4, Auracast.',
   image: loajblpartyboxstage320.src,
@@ -1082,7 +1082,7 @@ export const products = [
 },
 
 {
-  id: 'loa-jbl-partyBox-720',
+  id: 'thue-loa-jbl-partyBox-720-da-nang',
   name: 'Loa JBL PartyBox 720',
   catalogue: 'Loa tiệc tùng công suất 800W RMS, pin rời 15 giờ, chống nước IPX4, Auracast.',
   image: loajblpartybox720.src,
@@ -1100,27 +1100,9 @@ export const products = [
   detail4: 'Kết nối Bluetooth 5.4, tích hợp Auracast để ghép nối không giới hạn nhiều loa, có đầy đủ cổng Mic/Guitar-In, Aux-In, Line-In, và chống nước IPX4.',
 },
 
-// {
-//   id: 'loa-jbl-party-box-ultimate',
-//   name: 'Loa JBL PartyBox Ultimate',
-//   catalogue: 'Loa tiệc tùng cao cấp, âm thanh 3 đường tiếng, hỗ trợ Wi-fi, Dolby Atmos, chống nước IPX4.',
-//   image: loajblpartyboxultimate.src,
-//   image1: loajblpartyboxultimate1.src,
-//   image2: loajblpartyboxultimate2.src,
-//   image3: loajblpartyboxultimate3.src,
-//   image4: loajblpartyboxultimate4.src,
-//   image5: loajblpartyboxultimate5.src,
-//   originalPrice: 1800,
-//   price: 1600,
-//   quantity: 1,
-//   detail1: 'Âm thanh JBL Pro Sound huyền thoại với hệ thống 3 đường tiếng (2 treble, 2 mid, 2 subwoofer) mạnh mẽ, bao phủ không gian rộng lớn.',
-//   detail2: 'Kết nối cao cấp qua Wi-fi cho âm nhạc chất lượng cao, bao gồm cả âm thanh 3D Dolby Atmos, bên cạnh Bluetooth 5.3 thế hệ mới.',
-//   detail3: 'Trình diễn ánh sáng đa chiều sinh động (Cool light trails, strobes) đồng bộ hoàn hảo với nhạc, có thể điều khiển qua nút bấm hoặc ứng dụng JBL One.',
-//   detail4: 'Tích hợp JBL PartyPad để phối hiệu ứng DJ trực tiếp, có đầy đủ cổng Mic/Guitar, hỗ trợ ghép đôi không dây nhiều loa và chống nước IPX4.',
-// }
 ,
   {
-    id: 'quat-tich-dien',
+    id: 'thue-quat-tich-dien-da-nang',
     name: 'Quạt tích điện',
     catalogue: '(Pin 20.000mAh, dùng 70h mức thấp, 11h mạnh nhất, 9h khi bật tất cả; đèn dùng ~300h. Tích hợp đèn 3 mức, điều khiển từ xa, hẹn giờ, kiêm sạc dự phòng.)',
     image: quat.src,
@@ -1140,7 +1122,7 @@ export const products = [
     salePrice: 690,
   },
   {
-    id: 'thue-trippd-da-nang',
+    id: 'thue-tripod-da-nang',
     name: 'Tripod',
     catalogue: '(có remote, dùng cho cả máy ảnh và điện thoại)',
     image: tripod.src,
@@ -1198,7 +1180,7 @@ export const products = [
   },
 
   {
-    id: 'bep-cui-da-ngoai-ti-artisan-thep-khong-gi',
+    id: 'thue-bep-cui-mini-da-nang',
     name: 'Bếp củi dã ngoại Ti Artisan thép không gỉ 304',
     catalogue: '(125 x 125 x 160mm)',
     image: bepcui.src,
@@ -1217,7 +1199,7 @@ export const products = [
     detail5: 'Kích thước: 125 x 125 x 160mm | Trọng lượng: 448g'
   },
   {
-    id: 'bep-gas',
+    id: 'thue-bep-gas-da-nang',
     name: 'Bếp gas',
     catalogue: '(Không kèm bình gas)',
     image: bepgas.src,
@@ -1238,7 +1220,7 @@ export const products = [
   },
 
   {
-    id: 'bep-con',
+    id: 'thue-bep-con-da-nang',
     name: 'Bếp cồn',
     catalogue: '(khay bỏ cồn an toàn)',
     image: bepcon.src,
@@ -1258,7 +1240,7 @@ export const products = [
     salePrice: 190,
   },
   {
-    id: 'thung-da-8l',
+    id: 'thue-thung-da-8l-da-nang',
     name: 'Thùng đá 8L',
     catalogue: '(thể tích 8L)',
     image: thungdanho.src,
@@ -1277,7 +1259,7 @@ export const products = [
   },
 
   {
-    id: 'thung-da-16l',
+    id: 'thue-thung-da-16l-da-nang',
     name: 'Thùng đá 16L',
     catalogue: '(thể tích 16L)',
     image: thungda16L.src,
@@ -1296,7 +1278,7 @@ export const products = [
   },
 
   {
-    id: 'thung-da-25l',
+    id: 'thue-thung-da-25l-da-nang',
     name: 'Thùng đá 25L',
     catalogue: '(thể tích 25L)',
     image: thungda25L.src,
@@ -1315,7 +1297,7 @@ export const products = [
   },
 
   {
-    id: 'thung-da-45l',
+    id: 'thue-thung-da-45l-da-nang',
     name: 'Thùng đá 45L',
     catalogue: '(thể tích 45L)',
     image: thungda45Lanh1.src,
@@ -1333,7 +1315,7 @@ export const products = [
     detail4: 'Thiết kế nắp đậy kín, tay xách tiện lợi. Bề mặt nhẵn dễ vệ sinh. Phù hợp sử dụng cho gia đình, đi cắm trại.'
   },
   {
-    id: 'bo-noi-4-nguoi',
+    id: 'thue-bo-noi-4-nguoi-da-nang',
     name: 'Bộ nồi 3-4 người',
     catalogue: '(ấm, chảo, nồi)',
     image: bonoi.src,
@@ -1352,7 +1334,7 @@ export const products = [
   },
 
   {
-    id: 'noi-treo-4l',
+    id: 'thue-noi-treo-4l-da-nang',
     name: 'Nồi treo 4L',
     catalogue: '(kèm giá treo 3 chân)',
     image: noi4Lanh4.src,
@@ -1371,7 +1353,7 @@ export const products = [
   },
 
   {
-    id: 'noi-4l',
+    id: 'thue-noi-4l-da-nang',
     name: 'Nồi 4L',
     catalogue: '(thể tích 4L)',
     image: noi4L.src,
@@ -1388,7 +1370,7 @@ export const products = [
   },
 
   {
-    id: 'am-nuoc',
+    id: 'thue-am-nuoc-da-nang',
     name: 'Ấm 0.8L',
     catalogue: '(thể tích 0.8L)',
     image: amnuoc.src,
@@ -1407,7 +1389,7 @@ export const products = [
   },
 
   {
-    id: 'tay-quay-nuong-inox',
+    id: 'thue-tay-quay-nuong-ga-da-nang',
     name: 'Tay quay nướng inox',
     catalogue: '(kèm 2 trụ chống)',
     image: tayquaynuongga.src,
@@ -1425,7 +1407,7 @@ export const products = [
     detail4: 'Chuyên dụng cho các buổi tiệc nướng dã ngoại, giúp món nướng chín đều và thơm ngon.'
   },
   {
-    id: 'may-nuong-tu-dong',
+    id: 'thue-may-nuong-ga-tu-dong-da-nang',
     name: 'Máy nướng tự động',
     catalogue: '(kèm quạt mini, không kèm sạc dự phòng)',
     image: maynuongtudong.src,
@@ -1445,7 +1427,7 @@ export const products = [
     detail6: 'Sản phẩm sản xuất tại Việt Nam, dễ tháo lắp và kiểm tra, thiết kế nhỏ gọn dễ mang theo trong mọi hành trình.'
   },
   {
-    id: 'dau-kho-namilux',
+    id: 'thue-dau-kho-namilux-da-nang',
     name: 'Đầu khò',
     catalogue: '(không kèm bình gas)',
     image: daukho.src,
@@ -1464,7 +1446,7 @@ export const products = [
   },
 
   {
-    id: 'binh-ga-mini-namilux-250g',
+    id: 'mua-binh-ga-mini-da-nang',
     name: 'Bình gas mini Namilux 250g',
     catalogue: '(250g)',
     image: binhgas1.src,
@@ -1486,7 +1468,7 @@ export const products = [
   },
 
   {
-    id: 'than-gao-dua',
+    id: 'mua-than-gao-dua-da-nang',
     name: 'Than gáo dừa',
     catalogue: '(1kg)',
     image: than1.src,
@@ -1505,7 +1487,7 @@ export const products = [
     isRental: true,
   },
   {
-    id: 'vien-moi-than',
+    id: 'mua-vien-moi-than-da-nang',
     name: 'Viên mồi than',
     catalogue: '(1 viên)',
     image: vienmoithan1.src,
@@ -1527,7 +1509,7 @@ export const products = [
   },
 
   {
-    id: 'bo-bai-ma-soi',
+    id: 'mua-bo-bai-ma-soi-da-nang',
     name: 'Bộ bài ma sói',
     catalogue: '(bộ bài chia rẽ tình bạn bè)',
     image: baimasoi.src,
@@ -1547,7 +1529,7 @@ export const products = [
     salePrice: 20,
   },
   {
-    id: 'tui-dung-nuoc-co-voi-naturehike-cnk2450cf027',
+    id: 'thue-tui-dung-nuoc-da-nang',
     name: 'Túi đựng nước có vòi Naturehike',
     catalogue: '(10L)',
     image: TuiMangNuocCoVoi1.src,
