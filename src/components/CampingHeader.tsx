@@ -16,7 +16,7 @@ interface NavItem {
 const navItems: NavItem[] = [
   { label: 'Trang chủ', href: '/' },
   { label: 'Thuê Đồ Cắm Trại', href: '/#products' },
-  { label: 'Mua Sắm', href: '/cua-hang-ban-do-cam-trai' },
+  // { label: 'Mua Sắm', href: '/cua-hang-ban-do-cam-trai' },
   { label: 'Điểm Camping', href: '/nhung-dia-diem-cam-trai-da-nang' },
   { label: 'Kinh nghiệm', href: '/kinh-nghiem-cam-trai' },
   { label: 'Về chúng tôi', href: '/about-didicamping' },

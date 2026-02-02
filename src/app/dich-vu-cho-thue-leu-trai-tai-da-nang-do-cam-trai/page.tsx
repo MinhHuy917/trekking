@@ -99,7 +99,7 @@ const rentalItems = [
   { id: 'loa-jbl-party-box-ultimate', name: 'Loa JBL PartyBox Ultimate', price: '1600.000 VNĐ', type: 'ngày', image: loajblpartyboxultimate },
   {  id: 'quat-tich-dien', name: 'Quạt tích điện (pin 20.000 mAh + đèn)', price: '50.000 VNĐ', type: 'ngày', image: quat },
   { id: 'thue-trippd-da-nang', name: 'Tripod (remote)', price: '40.000 VNĐ', type: 'ngày', image: tripod },
-  { name: 'Bộ bài ma sói', price: '5.000 VNĐ', type: 'ngày', image: baimasoi },
+  { name: 'Bộ bài ma sói', price: 'Miễn phí', type: 'ngày', image: baimasoi },
   // Nấu ăn
   { id: 'thue-bep-nuong-da-nang', name: 'Bếp nướng Nhỏ', price: '40.000 VNĐ', type: 'ngày', image: bepnuong },
   { id: 'cho-thue-bep-nuong-da-nang', name: 'Bếp Nướng Lớn', price: '70.000 VNĐ', type: 'ngày', image: bepnuongMT3 },
@@ -111,14 +111,13 @@ const rentalItems = [
   {  id: 'noi-4l', name: 'Nồi 4 L', price: '30.000 VNĐ', type: 'ngày', image: noi4L },
   {   id: 'am-nuoc', name: 'Ấm 0.8 L', price: '15.000 VNĐ', type: 'ngày', image: amnuoc },
   {id: 'tay-quay-nuong-inox',  name: 'Tay quay inox', price: '20.000 VNĐ', type: 'ngày', image: tayquaynuongga },
-  {  id: 'may-nuong-tu-dong', name: 'Máy nướng tự động', price: '50.000 VNĐ', type: 'ngày', image: maynuongtudong },
+  // {  id: 'may-nuong-tu-dong', name: 'Máy nướng tự động', price: '50.000 VNĐ', type: 'ngày', image: maynuongtudong },
   {  id: 'dau-kho-namilux', name: 'Đầu khò', price: '10.000 VNĐ', type: 'ngày', image: daukho },
   {id: 'binh-ga-mini-namilux-250g', name: 'Bình gas mini 250 g', price: '30.000 VNĐ', type: 'ngày', image: binhgas1 },
   { id: 'than-gao-dua', name: 'Than gáo dừa 1 kg', price: '30.000 VNĐ', type: 'ngày', image: than1 },
   { id: 'vien-moi-than', name: 'Viên mồi than', price: '5.000 VNĐ', type: 'ngày', image: vienmoithan1 },
   // Thùng đá & nước
   { id: 'thung-da-8l', name: 'Thùng đá 8 L', price: '20.000 VNĐ', type: 'ngày', image: thungdanho },
-  {  id: 'thung-da-16l', name: 'Thùng đá 16 L', price: '30.000 VNĐ', type: 'ngày', image: thungda16L },
   {  id: 'thung-da-25l', name: 'Thùng đá 25 L', price: '40.000 VNĐ', type: 'ngày', image: thungda25L },
   { name: 'Túi nước 10 L', price: '10.000 VNĐ', type: 'ngày', image: TuiMangNuocCoVoi1 },
 ]
