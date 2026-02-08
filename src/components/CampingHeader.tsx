@@ -104,7 +104,7 @@ export default function CampingHeader() {
           {/* Nút Cộng đồng Facebook (Desktop) */}
           <div className="hidden lg:block">
             <Link 
-              href="https://www.facebook.com" 
+              href="https://www.facebook.com/groups/congdongcamtraidanang" 
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 rounded-full bg-blue-600 px-4 py-2 text-xs font-medium text-white shadow-lg hover:bg-blue-700 transition duration-300 tracking-tight"
@@ -185,7 +185,7 @@ export default function CampingHeader() {
           {/* Nút Cộng đồng Facebook trong mobile menu */}
           <div className="pt-4">
             <Link 
-              href="https://www.facebook.com" 
+              href="https://www.facebook.com/groups/congdongcamtraidanang" 
               target="_blank"
               rel="noopener noreferrer"
               onClick={handleItemClick}
