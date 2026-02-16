@@ -122,11 +122,10 @@ import goihoianh4 from '/src/images/goihoi/4.png'
 import goihoianh6 from '/src/images/goihoi/6.png'
 import goihoianh7 from '/src/images/goihoi/7.png'
 
-import cachnhietanh2 from '/src/images/cachnhiet/2.png'
-import cachnhietanh3 from '/src/images/cachnhiet/3.png'
-import cachnhietanh4 from '/src/images/cachnhiet/4.png'
-import cachnhietanh5 from '/src/images/cachnhiet/5.png'
-import cachnhietanh6 from '/src/images/cachnhiet/6.png'
+import cachnhietanh1 from '/src/images/tamcachnhiet/1.png'
+import cachnhietanh2 from '/src/images/tamcachnhiet/2.png'
+import cachnhietanh3 from '/src/images/tamcachnhiet/3.png'
+import cachnhietanh4 from '/src/images/tamcachnhiet/4.png'
 
 import gheanh1 from '/src/images/ghe/1.png'
 import gheanh2 from '/src/images/ghe/2.png'
@@ -635,12 +634,10 @@ export const products = [
     id: 'thue-tam-cach-nhiet-da-nang',
     name: 'Tấm cách nhiệt',
     catalogue: '(cách hơi đất)',
-    image: cachnhiet.src,
+    image: cachnhietanh1.src,
     image2: cachnhietanh2.src,
     image3: cachnhietanh3.src,
     image4: cachnhietanh4.src,
-    image5: cachnhietanh5.src,
-    image6: cachnhietanh6.src,
     price: 10,
     quantity: 1,
     detail1: 'Tấm lót đa năng chống nước, cách nhiệt, dày 2mm, tráng bạc 2 mặt – dùng được cả hai mặt.',
