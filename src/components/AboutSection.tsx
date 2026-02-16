@@ -9,7 +9,7 @@ export default function AboutSection() {
           </span>
         </h2>
         <p className="text-gray-600 text-lg sm:text-xl leading-relaxed tracking-wide max-w-2xl mx-auto">
-        Cửa hàng cho thuê lều cắm trại và bán đồ cắm trại tại Đà Nẵng – đồng hành cùng bạn trong mọi chuyến phiêu lưu.
+        Cửa hàng cho thuê lều cắm trại tại Đà Nẵng - Với sứ mệnh sinh ra để phục vụ khách hàng là phụ, chờ khách rủ đi camp cùng là chính 😆😆 
         </p>
       </div>
     </section>

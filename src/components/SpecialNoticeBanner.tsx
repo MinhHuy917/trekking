@@ -3,10 +3,16 @@ import React from 'react'
 export default function PromoBanner() {
   const promos = [
     {
-      icon: '🛡️',
-      title: 'Miễn phí tấm cách nhiệt',
-      desc: 'Thuê lều được tặng kèm tấm cách nhiệt lót sàn',
-      tag: 'FREE',
+      icon: '🚚',
+      title: 'Có giao hàng tận nơi',
+      desc: 'Phí giao hàng tính theo giá Grab Express',
+      tag: 'SUPPORT',
+    },
+    {
+      icon: '⛺️',
+      title: 'Dịch vụ Setup Lều Trại Tận Nơi',
+      desc: 'Nhận dựng lều sẵn tại các bãi cắm hot nhất Đà Nẵng: Sơn Trà, Hòa Bắc, Hải Vân,..',
+      tag: 'HOT',
     },
     {
       icon: '🎓',
@@ -22,26 +28,11 @@ export default function PromoBanner() {
       tag: 'FREE',
     },
 
-    {
-      icon: '🚚',
-      title: 'Có giao hàng tận nơi',
-      desc: 'Phí giao hàng tính theo giá Grab Express',
-      tag: 'SUPPORT',
-    },
    
-    {
-      icon: '⛺️',
-      title: 'Dịch vụ Setup Lều Trại Tận Nơi',
-      desc: 'Nhận dựng lều sẵn tại các bãi cắm hot nhất Đà Nẵng: Sơn Trà, Hòa Bắc, Hải Vân,..',
-      tag: 'HOT',
-    },
+   
+   
 
-    {
-      icon: '🥩',
-      title: 'Set BBQ Sơ Chế Trọn Gói',
-      desc: 'Sơ chế trọn gói, bạn chỉ cần nhận đồ và đem theo nướng. Đặt trước 1 ngày để chúng mình có thời gian chuẩn bị chu đáo!',
-      tag: 'TIỆN LỢI',
-    },
+    
   ]
 
   return (

@@ -8,12 +8,10 @@ import bepnuong from '/src/images/bepnuong.jpg'
 import bonoi from '/src/images/bonoi3mon.png'
 import chanden from '/src/images/chanden.png'
 import daukho from '/src/images/daukho.png'
-import dencamtay from '/src/images/dencamtay.jpg'
 import dendeban from '/src/images/dendeban.jpg'
-import dendoidau from '/src/images/dendoidau.jpg'
 import denled from '/src/images/denled.png'
-import denngoisao from '/src/images/denngoisao.png'
 import denleu from '/src/images/denleu/0.png'
+import denngoisao from '/src/images/denngoisao.png'
 import densinhhoat from '/src/images/densinhhoat/0.png'
 import ghe from '/src/images/ghe.png'
 import goihoi from '/src/images/goihoi.jpg'
@@ -28,7 +26,6 @@ import leu4 from '/src/images/leu4.jpg'
 import leu6 from '/src/images/leu6.jpg'
 import leu8 from '/src/images/leu8.jpg'
 import loa from '/src/images/loatronsmart.png'
-import maynuongtudong from '/src/images/maynuongtudong.png'
 import noi4L from '/src/images/noi4L.png'
 import quat from '/src/images/quat.png'
 import sacduphong from '/src/images/sacduphong.jpeg'
@@ -38,7 +35,6 @@ import tang3m from '/src/images/tang3m.jpg'
 import tayquaynuongga from '/src/images/tayquaynuongga.jpg'
 import thamdangoai from '/src/images/thamdangoai.jpg'
 import thamvintage from '/src/images/thamvintage2.png'
-import thungda16L from '/src/images/thungda16L.jpg'
 import thungdanho from '/src/images/thungda6.8L.jpeg'
 import thungda25L from '/src/images/thungdac2.png'
 import tripod from '/src/images/tripod.jpg'
@@ -62,11 +58,63 @@ import leu8anh3 from '/src/images/leu8/2.jpg'
 import leu8anh4 from '/src/images/leu8/3.jpg'
 import leu8anh5 from '/src/images/leu8/4.jpg'
 
+import leuvesinhanh1 from '/src/images/leuvesinh/1.jpg'
+import leuvesinhanh2 from '/src/images/leuvesinh/2.jpg'
+import leuvesinhanh3 from '/src/images/leuvesinh/3.jpg'
+import leuvesinhanh4 from '/src/images/leuvesinh/4.jpg'
+import leuvesinhanh5 from '/src/images/leuvesinh/5.jpg'
+import leuvesinhanh6 from '/src/images/leuvesinh/6.jpg'
+import leuvesinhanh7 from '/src/images/leuvesinh/7.jpg'
+import leuvesinhanh8 from '/src/images/leuvesinh/8.jpg'
+
+import bonvesinhanh1 from '/src/images/bonvesinh/1.jpg'
+import bonvesinhanh2 from '/src/images/bonvesinh/2.jpg'
+import bonvesinhanh3 from '/src/images/bonvesinh/3.jpg'
+import bonvesinhanh4 from '/src/images/bonvesinh/4.jpg'
+import bonvesinhanh5 from '/src/images/bonvesinh/5.jpg'
+import bonvesinhanh6 from '/src/images/bonvesinh/6.jpg'
+
+import combovesinhdangoaianh1 from '/src/images/combovesinh/1.png'
+import combovesinhdangoaianh2 from '/src/images/combovesinh/2.jpg'
+import combovesinhdangoaianh3 from '/src/images/combovesinh/3.jpg'
+import combovesinhdangoaianh4 from '/src/images/combovesinh/4.png'
+import combovesinhdangoaianh5 from '/src/images/combovesinh/5.jpg'
+import combovesinhdangoaianh6 from '/src/images/combovesinh/6.jpg'
+
+
+
+import xengcampinganh1 from '/src/images/xengcamping/0.jpg'
+import xengcampinganh2 from '/src/images/xengcamping/1.jpg'
+import xengcampinganh3 from '/src/images/xengcamping/2.jpg'
+import xengcampinganh4 from '/src/images/xengcamping/3.jpg'
+import xengcampinganh5 from '/src/images/xengcamping/4.jpg'
+import xengcampinganh6 from '/src/images/xengcamping/5.jpg'
+import xengcampinganh7 from '/src/images/xengcamping/6.jpg'
+
 import vonganh1 from '/src/images/vong/0.png'
 import vonganh4 from '/src/images/vong/3.jpeg'
 import vonganh5 from '/src/images/vong/4.png'
 import vonganh6 from '/src/images/vong/5.jpg'
 import vonganh7 from '/src/images/vong/6.jpg'
+
+
+import TuiNguNaturehikeanh1 from '/src/images/tuingu/1.jpg'
+import TuiNguNaturehikeanh2 from '/src/images/tuingu/2.jpg'
+import TuiNguNaturehikeanh3 from '/src/images/tuingu/3.jpg'
+import TuiNguNaturehikeanh4 from '/src/images/tuingu/4.jpg'
+import TuiNguNaturehikeanh5 from '/src/images/tuingu/5.jpg'
+import TuiNguNaturehikeanh6 from '/src/images/tuingu/6.jpg'
+
+import DemHoiGlampingNaturehikeanh1 from '/src/images/demhoinaturehike/0.jpg'
+import DemHoiGlampingNaturehikeanh2 from '/src/images/demhoinaturehike/2.jpg'
+import DemHoiGlampingNaturehikeanh3 from '/src/images/demhoinaturehike/3.jpg'
+import DemHoiGlampingNaturehikeanh4 from '/src/images/demhoinaturehike/4.jpg'
+import DemHoiGlampingNaturehikeanh5 from '/src/images/demhoinaturehike/5.jpg'
+import DemHoiGlampingNaturehikeanh6 from '/src/images/demhoinaturehike/6.jpg'
+import DemHoiGlampingNaturehikeanh7 from '/src/images/demhoinaturehike/7.jpg'
+import DemHoiGlampingNaturehikeanh8 from '/src/images/demhoinaturehike/8.jpg'
+import DemHoiGlampingNaturehikeanh9 from '/src/images/demhoinaturehike/9.jpg'
+import DemHoiGlampingNaturehikeanh10 from '/src/images/demhoinaturehike/10.jpg'
 
 import goihoianh2 from '/src/images/goihoi/2.png'
 import goihoianh3 from '/src/images/goihoi/3.png'
@@ -101,20 +149,15 @@ import bo2caychongtanganh4 from '/src/images/bo2caychongtang/4.png'
 import bo2caychongtanganh5 from '/src/images/bo2caychongtang/5.png'
 
 import gheNH1 from '/src/images/gheNH16J001-J/1.jpg'
-import gheNH2 from '/src/images/gheNH16J001-J/2.png'
-import gheNH3 from '/src/images/gheNH16J001-J/3.jpg'
-import gheNH4 from '/src/images/gheNH16J001-J/4.jpg'
-import gheNH5 from '/src/images/gheNH16J001-J/5.jpg'
-import gheNH6 from '/src/images/gheNH16J001-J/6.jpg'
-import gheNH7 from '/src/images/gheNH16J001-J/7.jpg'
-import gheNH8 from '/src/images/gheNH16J001-J/8.jpg'
-import gheNH9 from '/src/images/gheNH16J001-J/9.jpg'
 import gheNH10 from '/src/images/gheNH16J001-J/10.jpg'
 import gheNH11 from '/src/images/gheNH16J001-J/11.jpg'
+import gheNH2 from '/src/images/gheNH16J001-J/2.png'
+import gheNH5 from '/src/images/gheNH16J001-J/5.jpg'
+import gheNH7 from '/src/images/gheNH16J001-J/7.jpg'
 
 import ghegapgon from '/src/images/ghegapgon/0.png'
-import ghegapgon1 from '/src/images/ghegapgon/2.jpg'
 import ghegapgon2 from '/src/images/ghegapgon/1.jpg'
+import ghegapgon1 from '/src/images/ghegapgon/2.jpg'
 import ghegapgon3 from '/src/images/ghegapgon/3.jpg'
 import ghegapgon4 from '/src/images/ghegapgon/4.jpg'
 import ghegapgon5 from '/src/images/ghegapgon/5.jpg'
@@ -139,8 +182,8 @@ import BanNaturehikeSizeManh1 from '/src/images/bannaturehikesizem/00.png'
 import BanNaturehikeSizeManh2 from '/src/images/bannaturehikesizem/2.jpg'
 import BanNaturehikeSizeManh3 from '/src/images/bannaturehikesizem/3.jpg'
 import BanNaturehikeSizeManh4 from '/src/images/bannaturehikesizem/4.jpg'
-import BanNaturehikeSizeManh5 from '/src/images/bannaturehikesizem/m.jpg'
 import BanNaturehikeSizeManh6 from '/src/images/bannaturehikesizem/6.jpg'
+import BanNaturehikeSizeManh5 from '/src/images/bannaturehikesizem/m.jpg'
 
 
 
@@ -151,10 +194,16 @@ import BanNaturehikeSizeLanh4 from '/src/images/bannaturehikesizel/4.jpg'
 import BanNaturehikeSizeLanh5 from '/src/images/bannaturehikesizel/5.jpg'
 import BanNaturehikeSizeLanh6 from '/src/images/bannaturehikesizel/6.jpg'
 
+import thancui1 from '/src/images/thancui/1.jpeg'
+import thancui2 from '/src/images/thancui/2.jpeg'
+import thancui3 from '/src/images/thancui/3.jpeg'
+import thancui4 from '/src/images/thancui/4.jpg'
+import thancui5 from '/src/images/thancui/5.jpeg'
+import thancui6 from '/src/images/thancui/6.jpg'
+import thancui7 from '/src/images/thancui/6.jpg'
 
-
-import than1 from '/src/images/than/1.png'
-import than2 from '/src/images/than/2.png'
+import than1 from '/src/images/than/a.jpg'
+import than2 from '/src/images/than/b.jpg'
 import than3 from '/src/images/than/3.png'
 import than4 from '/src/images/than/4.png'
 import than5 from '/src/images/than/5.png'
@@ -170,21 +219,24 @@ import vienmoithan6 from '/src/images/vien-moi-than/6.png'
 import banNH1 from '/src/images/banNH22JU050/1.png'
 import banNH2 from '/src/images/banNH22JU050/2.jpg'
 import banNH3 from '/src/images/banNH22JU050/3.jpg'
-import banNH4 from '/src/images/banNH22JU050/4.jpg'
 import banNH5 from '/src/images/banNH22JU050/5.jpg'
-import banNH6 from '/src/images/banNH22JU050/6.jpg'
-import banNH7 from '/src/images/banNH22JU050/7.jpg'
 import banNH8 from '/src/images/banNH22JU050/8.jpg'
 import banNH9 from '/src/images/banNH22JU050/9.jpg'
-import banNH10 from '/src/images/banNH22JU050/10.jpg'
 
 import TuiMangNuocCoVoi1 from '/src/images/TuiMangNuocCoVoi/1.jpg'
-import TuiMangNuocCoVoi2 from '/src/images/TuiMangNuocCoVoi/2.jpeg'
 import TuiMangNuocCoVoi3 from '/src/images/TuiMangNuocCoVoi/3.jpg'
 import TuiMangNuocCoVoi4 from '/src/images/TuiMangNuocCoVoi/4.jpg'
 import TuiMangNuocCoVoi5 from '/src/images/TuiMangNuocCoVoi/5.jpg'
 import TuiMangNuocCoVoi6 from '/src/images/TuiMangNuocCoVoi/6.jpg'
 import TuiMangNuocCoVoi7 from '/src/images/TuiMangNuocCoVoi/7.jpg'
+
+import bovoisenanh1 from '/src/images/bovoisen/1.jpeg'
+import bovoisenanh2 from '/src/images/bovoisen/2.jpeg'
+import bovoisenanh3 from '/src/images/bovoisen/3.jpeg'
+import bovoisenanh4 from '/src/images/bovoisen/4.jpeg'
+import bovoisenanh5 from '/src/images/bovoisen/5.jpeg'
+import bovoisenanh6 from '/src/images/bovoisen/6.jpeg'
+import bovoisenanh7 from '/src/images/bovoisen/7.jpeg'
 
 
 import chantreodenannh1 from '/src/images/chantreoden/1.png'
@@ -206,6 +258,19 @@ import tang4m5anh3 from '/src/images/tang4m5/3.png'
 import tang4m5anh4 from '/src/images/tang4m5/4.png'
 import tang4m5anh5 from '/src/images/tang4m5/5.png'
 
+import tangnaturehikeanh1 from '/src/images/tangnaturehike/1.jpg'
+import tangnaturehikeanh2 from '/src/images/tangnaturehike/2.jpg'
+import tangnaturehikeanh3 from '/src/images/tangnaturehike/3.jpg'
+import tangnaturehikeanh4 from '/src/images/tangnaturehike/4.jpg'
+import tangnaturehikeanh5 from '/src/images/tangnaturehike/5.jpg'
+
+import tangnaturehikeLanh1 from '/src/images/tang-naturehike-size-lon/1.jpg'
+import tangnaturehikeLanh2 from '/src/images/tang-naturehike-size-lon/2.jpg'
+import tangnaturehikeLanh3 from '/src/images/tang-naturehike-size-lon/3.jpg'
+import tangnaturehikeLanh4 from '/src/images/tang-naturehike-size-lon/4.jpg'
+import tangnaturehikeLanh5 from '/src/images/tang-naturehike-size-lon/5.jpg'
+import tangnaturehikeLanh6 from '/src/images/tang-naturehike-size-lon/6.jpg'
+
 
 import thamdangoaiannh1 from '/src/images/thamdangoai/1.png'
 import thamdangoaiannh2 from '/src/images/thamdangoai/2.png'
@@ -219,10 +284,6 @@ import thamvintageannh3 from '/src/images/thamvintage/3.png'
 import thamvintageannh4 from '/src/images/thamvintage/4.png'
 import thamvintageannh5 from '/src/images/thamvintage/5.png'
 
-import densinhhoatanh1 from '/src/images/densinhhoat/1.png'
-import densinhhoatanh2 from '/src/images/densinhhoat/2.png'
-import densinhhoatanh3 from '/src/images/densinhhoat/3.png'
-import densinhhoatanh4 from '/src/images/densinhhoat/4.png'
 import densinhhoatanh5 from '/src/images/densinhhoat/5.png'
 
 
@@ -231,6 +292,40 @@ import denleuanh2 from '/src/images/denleu/2.png'
 import denleuanh3 from '/src/images/denleu/3.png'
 import denleuanh4 from '/src/images/denleu/4.png'
 import denleuanh5 from '/src/images/denleu/5.png'
+
+import dendoidaunaturehikeanh1 from '/src/images/dendoidaunaturehike/1.jpg'
+import dendoidaunaturehikeanh2 from '/src/images/dendoidaunaturehike/2.jpg'
+import dendoidaunaturehikeanh3 from '/src/images/dendoidaunaturehike/3.jpg'
+import dendoidaunaturehikeanh4 from '/src/images/dendoidaunaturehike/4.jpg'
+import dendoidaunaturehikeanh5 from '/src/images/dendoidaunaturehike/5.jpg'
+import dendoidaunaturehikeanh6 from '/src/images/dendoidaunaturehike/6.jpg'
+import dendoidaunaturehikeanh7 from '/src/images/dendoidaunaturehike/7.jpg'
+import dendoidaunaturehikeanh8 from '/src/images/dendoidaunaturehike/8.jpg'
+import dendoidaunaturehikeanh9 from '/src/images/dendoidaunaturehike/9.jpg'
+
+import dencodiennaturehikeanh1 from '/src/images/dencodiennaturehike/1.jpg'
+import dencodiennaturehikeanh2 from '/src/images/dencodiennaturehike/2.png'
+import dencodiennaturehikeanh3 from '/src/images/dencodiennaturehike/3.jpg'
+import dencodiennaturehikeanh4 from '/src/images/dencodiennaturehike/4.jpg'
+import dencodiennaturehikeanh5 from '/src/images/dencodiennaturehike/5.jpg'
+import dencodiennaturehikeanh6 from '/src/images/dencodiennaturehike/6.jpg'
+import dencodiennaturehikeanh7 from '/src/images/dencodiennaturehike/7.jpg'
+import dencodiennaturehikeanh8 from '/src/images/dencodiennaturehike/8.jpg'
+
+
+import denretronaturehikeanh1 from '/src/images/denretronaturehike/1.jpg'
+import denretronaturehikeanh2 from '/src/images/denretronaturehike/2.png'
+import denretronaturehikeanh3 from '/src/images/denretronaturehike/3.png'
+import denretronaturehikeanh4 from '/src/images/denretronaturehike/4.png'
+import denretronaturehikeanh5 from '/src/images/denretronaturehike/5.jpg'
+import denretronaturehikeanh6 from '/src/images/denretronaturehike/6.jpg'
+import denretronaturehikeanh7 from '/src/images/denretronaturehike/7.jpg'
+
+import denretroanh1 from '/src/images/denretro/1.jpg'
+import denretroanh2 from '/src/images/denretro/2.jpg'
+import denretroanh3 from '/src/images/denretro/3.jpg'
+import denretroanh4 from '/src/images/denretro/4.jpg'
+import denretroanh5 from '/src/images/denretro/5.jpg'
 
 
 import denvintageannh1 from '/src/images/denvintage/1.png'
@@ -255,7 +350,6 @@ import densinhhoatannh1 from '/src/images/densinhhoat/1.png'
 import densinhhoatannh2 from '/src/images/densinhhoat/2.png'
 import densinhhoatannh3 from '/src/images/densinhhoat/3.png'
 import densinhhoatannh4 from '/src/images/densinhhoat/4.png'
-import densinhhoatannh5 from '/src/images/densinhhoat/5.png'
 
 import sacduphongannh1 from '/src/images/sacduphong/1.png'
 import sacduphongannh2 from '/src/images/sacduphong/2.png'
@@ -290,12 +384,6 @@ import loajblpartybox7203 from '/src/images/loajblpartybox720/3.png'
 import loajblpartybox7204 from '/src/images/loajblpartybox720/4.png'
 import loajblpartybox7205 from '/src/images/loajblpartybox720/5.png'
 
-import loajblpartyboxultimate from '/src/images/loajblpartyboxultimate/0.png'
-import loajblpartyboxultimate1 from '/src/images/loajblpartyboxultimate/1.jpg'
-import loajblpartyboxultimate2 from '/src/images/loajblpartyboxultimate/2.jpg'
-import loajblpartyboxultimate3 from '/src/images/loajblpartyboxultimate/3.jpg'
-import loajblpartyboxultimate4 from '/src/images/loajblpartyboxultimate/4.jpg'
-import loajblpartyboxultimate5 from '/src/images/loajblpartyboxultimate/5.jpg'
 
 
 import quatanh1 from '/src/images/quat/1.png'
@@ -337,6 +425,19 @@ import bepcuianh3 from '/src/images/bepcui/3.png'
 import bepcuianh4 from '/src/images/bepcui/4.png'
 import bepcuianh5 from '/src/images/bepcui/5.png'
 
+
+import bepcuicampingmoonanh1 from '/src/images/bepcuicampingmoon/1.jpg'
+import bepcuicampingmoonanh2 from '/src/images/bepcuicampingmoon/2.jpg'
+import bepcuicampingmoonanh3 from '/src/images/bepcuicampingmoon/3.jpg'
+import bepcuicampingmoonanh4 from '/src/images/bepcuicampingmoon/4.jpg'
+import bepcuicampingmoonanh5 from '/src/images/bepcuicampingmoon/5.jpg'
+import bepcuicampingmoonanh6 from '/src/images/bepcuicampingmoon/6.jpg'
+import bepcuicampingmoonanh7 from '/src/images/bepcuicampingmoon/7.jpg'
+import bepcuicampingmoonanh8 from '/src/images/bepcuicampingmoon/8.jpg'
+import bepcuicampingmoonanh9 from '/src/images/bepcuicampingmoon/9.jpg'
+
+
+
 import bepgasanh1 from '/src/images/bepgas/1.png'
 import bepgasanh2 from '/src/images/bepgas/2.png'
 import bepgasanh3 from '/src/images/bepgas/3.png'
@@ -356,6 +457,23 @@ import bonoinhoanh2 from '/src/images/bonoinho/2.png'
 import bonoinhoanh3 from '/src/images/bonoinho/3.png'
 import bonoinhoanh4 from '/src/images/bonoinho/4.png'
 import bonoinhoanh5 from '/src/images/bonoinho/5.png'
+
+import bonoinaturehike4monanh1 from '/src/images/bonoinaturehike4mon/1.jpg'
+import bonoinaturehike4monanh2 from '/src/images/bonoinaturehike4mon/2.jpg'
+import bonoinaturehike4monanh3 from '/src/images/bonoinaturehike4mon/3.jpg'
+import bonoinaturehike4monanh4 from '/src/images/bonoinaturehike4mon/4.jpg'
+import bonoinaturehike4monanh5 from '/src/images/bonoinaturehike4mon/5.jpg'
+import bonoinaturehike4monanh6 from '/src/images/bonoinaturehike4mon/6.jpg'
+import bonoinaturehike4monanh7 from '/src/images/bonoinaturehike4mon/7.jpg'
+import bonoinaturehike4monanh8 from '/src/images/bonoinaturehike4mon/8.jpg'
+import bonoinaturehike4monanh9 from '/src/images/bonoinaturehike4mon/9.jpg'
+
+
+import bonoinaturehike3monanh1 from '/src/images/bonoinaturehike3mon/1.jpg'
+import bonoinaturehike3monanh2 from '/src/images/bonoinaturehike3mon/2.jpg'
+import bonoinaturehike3monanh3 from '/src/images/bonoinaturehike3mon/3.jpg'
+import bonoinaturehike3monanh4 from '/src/images/bonoinaturehike3mon/4.jpg'
+import bonoinaturehike3monanh5 from '/src/images/bonoinaturehike3mon/5.jpg'
 
 
 import noi4Lanh1 from '/src/images/noitreo4L/1.png'
@@ -379,11 +497,6 @@ import tayquaynuonggaanh4 from '/src/images/tayquaynuongga/4.png'
 import tayquaynuonggaanh5 from '/src/images/tayquaynuongga/5.png'
 
 
-import maynuonggatudonganh1 from '/src/images/maynuonggatudong/1.png'
-import maynuonggatudonganh2 from '/src/images/maynuonggatudong/2.png'
-import maynuonggatudonganh3 from '/src/images/maynuonggatudong/3.png'
-import maynuonggatudonganh4 from '/src/images/maynuonggatudong/4.png'
-import maynuonggatudonganh5 from '/src/images/maynuonggatudong/5.png'
 
 import daukhoanh1 from '/src/images/daukho/1.png'
 import daukhoanh2 from '/src/images/daukho/2.png'
@@ -412,11 +525,6 @@ import thungda8Lanh3 from '/src/images/thungda8L/3.png'
 import thungda8Lanh4 from '/src/images/thungda8L/4.png'
 import thungda8Lanh5 from '/src/images/thungda8L/5.png'
 
-import thungda16Lanh1 from '/src/images/thungda16L/1.png'
-import thungda16Lanh2 from '/src/images/thungda16L/2.png'
-import thungda16Lanh3 from '/src/images/thungda16L/3.png'
-import thungda16Lanh4 from '/src/images/thungda16L/4.png'
-import thungda16Lanh5 from '/src/images/thungda16L/5.png'
 
 
 import thungda25Lanh1 from '/src/images/thungda25L/1.png'
@@ -439,15 +547,15 @@ export const products = [
   {
     id: 'thue-leu-2-da-nang',
     name: 'Lều 2',
-    catalogue: '(2 lớp chống mưa, 1m4x2m)',
+    catalogue: '(1m4x2m)',
     image: leu2.src,
     image1: leu2anh1.src,
     image2: leu2anh4.src,
     image3: leu2anh5.src,
     image4: leu2anh7.src,
     image5: leu2anh3.src,
-    originalPrice: 80,
-    price: 70,
+    originalPrice: 70,
+    price: 80,
     quantity: 1,
     detail1: 'Lớp chống mưa 2 lớp bảo vệ hiệu quả, vải polyester 210T PU2000mm chống thấm tốt.',
     detail2: 'Kích thước lều 210×140×120cm, đủ rộng cho 2 người sử dụng.',
@@ -461,7 +569,7 @@ export const products = [
   {
     id: 'thue-leu-4-da-nang',
     name: 'Lều 4',
-    catalogue: '(2 lớp chống mưa, 2m1x2m1)',
+    catalogue: '(2m1x2m1)',
     image: leu4.src,
     image1: leu4anh1.src,
     image2: leu4anh2.src,
@@ -469,7 +577,7 @@ export const products = [
     image5: leu4anh5.src,
     image7: leu4anh7.src,
     originalPrice: 100,
-    price: 90,
+    price: 100,
     quantity: 1,
     detail1: 'Thiết kế 2 lớp vải dù 190T Polyester phủ PU 3000mm chống mưa cực tốt, đáy lều bằng bạt PE Tarpaulin phủ PU 5000mm – danh xưng “quái vật chịu mưa”.',
     detail2: 'Kích thước bên trong 210x210x135cm, bên ngoài 215x285x140cm, lý tưởng cho 4 người Việt, có mái hiên tiện nấu ăn.',
@@ -482,15 +590,15 @@ export const products = [
   {
     id: 'thue-leu-6-da-nang',
     name: 'Lều 6',
-    catalogue: '(2 lớp chống mưa, 3m x 2.7m x 1.9m)',
+    catalogue: '(3m x 2.7m x 1.9m)',
     image: leu6.src,
     image1: leu6anh1.src,
     image2: leu6anh2.src,
     image3: leu6anh3.src,
     image4: leu6anh4.src,
     image5: leu6anh5.src,
-    originalPrice: 160,
-    price: 140,
+    originalPrice: 150,
+    price: 150,
     quantity: 1,
     detail1: 'Lều lớn dành cho 6-8 người, kích thước 3m x 2.7m x cao 1.9m, thoáng mát và thoải mái cho gia đình hoặc nhóm đông người.',
     detail2: 'Chất liệu vải chính 190T PU 2000mm, vải đáy 150D PU 2500mm chống thấm hiệu quả, đường may ép keo chuẩn 7 mũi/inch.',
@@ -504,7 +612,7 @@ export const products = [
   {
     id: 'thue-leu-8-da-nang',
     name: 'Lều 8',
-    catalogue: '(2 lớp chống mưa, 4m x 2m x 1.6m)',
+    catalogue: '(4m x 2m x 1.6m)',
     image: leu8.src,
     image1: leu8anh1.src,
     image2: leu8anh2.src,
@@ -512,7 +620,7 @@ export const products = [
     image4: leu8anh4.src,
     image5: leu8anh5.src,
     originalPrice: 200,
-    price: 180,
+    price: 200,
     quantity: 1,
     detail1: 'Lều Dragon Dome 8P kích thước 4m x 2m x 1.6m, phù hợp cho 6–8 người sử dụng, màu be và trắng trang nhã.',
     detail2: 'Vải dày 150D phủ PU 3000mm chống thấm mưa cực tốt, có phủ ngoài và phòng ngủ riêng biệt.',
@@ -522,10 +630,164 @@ export const products = [
     isForSale: true,
     salePrice: 2600,
   },
+
+  {
+    id: 'thue-tam-cach-nhiet-da-nang',
+    name: 'Tấm cách nhiệt',
+    catalogue: '(cách hơi đất)',
+    image: cachnhiet.src,
+    image2: cachnhietanh2.src,
+    image3: cachnhietanh3.src,
+    image4: cachnhietanh4.src,
+    image5: cachnhietanh5.src,
+    image6: cachnhietanh6.src,
+    price: 10,
+    quantity: 1,
+    detail1: 'Tấm lót đa năng chống nước, cách nhiệt, dày 2mm, tráng bạc 2 mặt – dùng được cả hai mặt.',
+    detail2: 'Chất liệu Aluminum Waterproof PR bền bỉ, chịu ma sát tốt, không dễ rách, dễ vệ sinh, trọng lượng nhẹ 0.4kg.',
+    detail3: 'Có bao đựng tiện lợi, dễ gấp gọn, mang theo khi đi dã ngoại hoặc sử dụng hằng ngày.',
+    detail4: 'Thích hợp dùng lót lều, ngủ trưa văn phòng, picnic, cắm trại, ngồi chơi ngoài trời – tạo cảm giác êm ái, dễ chịu.'
+  },
+
+  {
+    id: 'thue-tam-tang-da-nang',
+    name: 'Tăng 5 người - che nắng, sương, mưa nhẹ',
+    catalogue: '(3mx3m)',
+    image: tang3m.src,
+    image1: tang3manh1.src,
+    image2: tang3manh2.src,
+    image3: tang3manh3.src,
+    image4: tang3manh4.src,
+    image5: tang3manh5.src,
+    originalPrice: 80,
+    price: 70,
+    quantity: 1,
+    detail1: 'Tấm tăng 3x3m phủ PU2000mm, chống thấm tốt – che mưa nắng hiệu quả cho nhóm 4–6 người.',
+    detail2: 'Bên trong tráng bạc giúp chống nắng xuyên thấu, thích hợp sử dụng cả ngày nắng gắt.',
+    detail3: 'Kèm 2 trụ thép sơn tĩnh điện, dây dù và cọc ghim – dễ dựng ở nhiều địa hình.',
+    detail4: 'Gấp gọn vào túi 60x15cm – tiện mang theo khi đi rừng, biển, cắm trại dài ngày.',
+    videoId: 'hoK43tEqvEk',
+  },
+  {
+    id: 'thue-tarp-da-nang',
+    name: 'Tăng 10 người - che nắng,sương, mưa nhẹ',
+    catalogue: '(4.5mx4.5m)',
+    image: tang.src,
+    image1: tang4m5anh1.src,
+    image2: tang4m5anh2.src,
+    image3: tang4m5anh3.src,
+    image4: tang4m5anh4.src,
+    image5: tang4m5anh5.src,
+    originalPrice: 150,
+    price: 120,
+    quantity: 1,
+    detail1: 'Tăng lớn phủ PU2000mm, diện tích 4.5x4.5m – che được 8–12 người, dùng cho nhóm đông.',
+    detail2: 'Có lớp tráng bạc chống tia UV, thích hợp cho hoạt động ngoài trời cả ngày.',
+    detail3: 'Kèm 2 trụ thép, cọc và dây dù – dễ dựng và cố định chắc chắn ở nhiều địa hình.',
+    detail4: 'Gấp gọn trong túi 60x15cm – tiện lợi mang theo đi cắm trại, dã ngoại, picnic.',
+    videoId: 'hoK43tEqvEk',
+  },
+  
+  {
+    id: 'thue-tang-naturehike-da-nang',
+    name: 'Tăng Naturehike 8 người - che nắng, chống mưa tốt',
+    catalogue: '(400x292cm)',
+    image: tangnaturehikeanh1.src,
+    image1: tangnaturehikeanh2.src,
+    image2: tangnaturehikeanh3.src,
+    image3: tangnaturehikeanh4.src,
+    image4: tangnaturehikeanh5.src,
+    image5: tangnaturehikeLanh5.src,
+    originalPrice: 150,
+    price: 150,
+    quantity: 1,
+    detail1: 'Tăng dã ngoại NatureHike NH20TM006 – dòng Glamping cao cấp, thiết kế hình lục giác rộng rãi, phù hợp cắm trại nhóm 5–6 người.',
+    detail2: 'Chất liệu vải Oxford 150D, áp dụng công nghệ mã hóa chống thấm, chỉ số chống nước PU3000+, che mưa nắng tốt, yên tâm sử dụng ngoài trời.',
+    detail3: 'Kích thước sử dụng 438 × 292 cm, không gian thoáng; khi gấp gọn chỉ 66 × 16 × 14 cm, trọng lượng 4.4kg, dễ mang theo cho các chuyến đi xa.',
+    detail4: 'Phụ kiện đầy đủ: 2 gậy sắt mạ chống gỉ, 10 đinh thép dạ quang, 10 dây gió và túi đựng tăng – dựng nhanh, chắc chắn, tiện lợi.',
+    videoId: 'hoK43tEqvEk',
+  },
+
+  {
+    id: 'thue-tang-naturehike-CNK2350WS015-da-nang',
+    name: 'Tăng Naturehike 12 người - che nắng, chống mưa tốt',
+    catalogue: '(500x390cm)',
+    image: tangnaturehikeLanh1.src,
+    image1: tangnaturehikeLanh2.src,
+    image2: tangnaturehikeLanh3.src,
+    image3: tangnaturehikeLanh4.src,
+    image4: tangnaturehikeLanh5.src,
+    image5: tangnaturehikeLanh6.src,
+    originalPrice: 150,
+    price: 200,
+    quantity: 1,
+    detail1: 'Thiết kế 7 lớp chống nắng, chặn tới 99,9% tia UV, giúp giảm nhiệt hiệu quả và bảo vệ da khi sinh hoạt lâu ngoài trời.',
+    detail2: 'Diện tích che phủ hơn 17m², tạo khu vực sinh hoạt mát mẻ cho khoảng 10–12 người, lý tưởng cho picnic, camping và tụ họp.',
+    detail3: 'Chất liệu phủ PU 18.000mm+ cho khả năng chống nước cao, hạn chế thấm hiệu quả khi gặp mưa bất chợt.',
+    detail4: 'Bộ tăng đi kèm đầy đủ: 2 sào chống, 4 dây gió ngắn, 4 dây gió dài, 8 cọc ghim, túi đựng cọc và dây bó phụ kiện. Setup nhanh, ổn định, giúp che nắng cho người, lều và cả đồ đạc, thiết bị khi hoạt động ngoài trời.',
+    videoId: 'hoK43tEqvEk',
+  },
+  {
+    id: 'thue-bo-2-cay-chong-tang-da-nang',
+    name: 'Bộ 2 Cây Chống Tăng Naturehike',
+    catalogue: '(bộ 2 cây, dài 2m)',
+    image: bo2caychongtang.src,
+    image1: bo2caychongtanganh1.src,
+    image2: bo2caychongtanganh2.src,
+    image3: bo2caychongtanganh3.src,
+    image4: bo2caychongtanganh4.src,
+    image5: bo2caychongtanganh5.src,
+    originalPrice: 35,
+    price: 40,
+    quantity: 1,
+    detail1: 'Chất liệu ống sắt mạ kẽm Ø16mm, chống gỉ, dẻo dai và bền chắc.',
+    detail2: 'Bộ gồm 2 cây, mỗi cây dài 2m, ghép từ 4 đoạn 50cm, có đầu nhọn móc khoen bạt.',
+    detail3: 'Trọng lượng 0.84kg, kích thước đóng gọn 60x12cm, có túi đựng tiện lợi.',
+    detail4: 'Phù hợp chống tăng bạt, mái che lều khi cắm trại, picnic, dã ngoại.'
+  },
+
+  {
+    id: 'thue-tham-da-ngoai-da-nang',
+    name: 'Thảm dã ngoại',
+    catalogue: '(chống thấm, 2m1x2m)',
+    image: thamdangoai.src,
+    image1: thamdangoaiannh1.src,
+    image2: thamdangoaiannh2.src,
+    image3: thamdangoaiannh3.src,
+    image4: thamdangoaiannh4.src,
+    image5: thamdangoaiannh5.src,
+    originalPrice: 30,
+    price: 30,
+    quantity: 1,
+    detail1: 'Thảm vải dù chống thấm nước, kích thước 2.1x2m',
+    detail2: 'Gọn nhẹ chỉ 350g, gấp lại chỉ 10x20x3cm, có túi đựng và móc treo tiện lợi.',
+    detail3: 'Phù hợp picnic, tắm nắng, đi biển, công viên, chống ẩm và chống xước tốt.',
+    detail4: 'Bộ gồm: thảm, túi đựng, móc carabiner và 4 đinh ghim nhựa cố định.'
+  },
+
+  {
+    id: 'thue-tham-vintage-da-nang',
+    name: 'Thảm Vintage',
+    catalogue: '(chống thấm, 2mx2m)',
+    image: thamvintage.src,
+    image1: thamvintageannh1.src,
+    image2: thamvintageannh2.src,
+    image3: thamvintageannh3.src,
+    image4: thamvintageannh4.src,
+    image5: thamvintageannh5.src,
+    originalPrice: 50,
+    price: 50,
+    quantity: 1,
+    detail1: 'Thảm picnic thổ cẩm đỏ chống thấm, dày 3.5mm, kích thước 2x2m hoặc 1.5x2m.',
+    detail2: 'Cấu tạo 3 lớp: Flannel + bông ngọc trai + lớp chống nước, giữ ấm, không xơ, không bóng.',
+    detail3: 'Gấp gọn tiện lợi (35x25x8cm), trọng lượng 1.2kg, dễ mang theo du lịch, picnic.',
+    detail4: 'Phù hợp dùng lót trong lều, trải ngồi ngoài trời, đi biển, dã ngoại hoặc tiệc BBQ.'
+  },
+
   {
     id: 'thue-vong-da-nang',
     name: 'Võng đơn NatureHike',
-    catalogue: '(Chống thấm, chịu lực tốt, gấp gọn)',
+    catalogue: '(chịu lực tốt, gấp gọn)',
     image: vong.src,
     image1: vonganh1.src,
     image4: vonganh4.src,
@@ -533,12 +795,30 @@ export const products = [
     image6: vonganh6.src,
     image7: vonganh7.src,
     originalPrice: 50,
-    price: 40,
+    price: 50,
     quantity: 1,
     detail1: 'Võng đơn NatureHike chính hãng – làm từ vải Polyester chống thấm nước, chắc chắn và bền bỉ, thích hợp dùng ngoài trời.',
     detail2: 'Tải trọng tối đa 180kg, an toàn cho 1 người lớn sử dụng. Trọng lượng nhẹ chỉ 660g, dễ mang theo.',
     detail3: 'Gấp gọn tiện lợi, kích thước xếp lại chỉ 29×15cm, có túi đựng kèm theo.',
     detail4: 'Màu sắc: xanh dương, cam, xám. Mã sản phẩm: NH21DC001 – thương hiệu uy tín NatureHike.'
+  },
+  {
+    id: 'thue-tui-ngu-da-nang',
+    name: 'Túi Ngủ Naturehike',
+    catalogue: '(8 - 15 độ C)',
+    image: TuiNguNaturehikeanh1.src,
+    image2:TuiNguNaturehikeanh2.src,
+    image3:TuiNguNaturehikeanh3.src,
+    image4:TuiNguNaturehikeanh4.src,
+    image5:TuiNguNaturehikeanh5.src,
+    image6:TuiNguNaturehikeanh6.src,
+    originalPrice: 8,
+    price: 40,
+    quantity: 1,
+    detail1: 'Túi ngủ Naturehike LW180 có trọng lượng chỉ khoảng 780g, đi kèm túi nén giúp thu gọn kích thước tương đương chai nước. Rất phù hợp cho camping, trekking, dã ngoại hoặc các chuyến đi cần tối ưu hành lý.',
+    detail2: 'Lớp bông nhân tạo mềm mại bên trong tạo cảm giác êm ái, dễ chịu khi ngủ. Nhiệt độ sử dụng thoải mái khoảng 15°C, phù hợp các chuyến cắm trại, ngủ lều, ngủ võng hoặc qua đêm ngoài trời thời tiết mát.',
+    detail3: 'Vải nylon 320D chắc chắn, có khả năng chống ẩm và chống thấm nhẹ, giúp bạn yên tâm sử dụng khi cắm trại trên nền cỏ hoặc môi trường ngoài trời.',
+    detail4: 'Có thể mở rộng hoàn toàn như chăn hoặc ghép đôi thành túi ngủ kép khi cần. Dễ gấp gọn, vệ sinh và bảo quản — rất tiện cho các chuyến đi ngắn ngày hoặc thuê sử dụng theo chuyến.',
   },
   {
     id: 'thue-goi-hoi-da-nang',
@@ -560,118 +840,174 @@ export const products = [
   },
 
   {
-    id: 'thue-tam-cach-nhiet-da-nang',
-    name: 'Tấm cách nhiệt',
-    catalogue: '(cách hơi đất)',
-    image: cachnhiet.src,
-    image2: cachnhietanh2.src,
-    image3: cachnhietanh3.src,
-    image4: cachnhietanh4.src,
-    image5: cachnhietanh5.src,
-    image6: cachnhietanh6.src,
-    price: 0,
+    id: 'thue-dem-hoi-da-nang',
+    name: 'Đệm hơi Naturehike Glamping',
+    catalogue: '(186 x 100 x 25 cm - tích hợp bơm hơi tự động)',
+    image: DemHoiGlampingNaturehikeanh1.src,
+    image2: DemHoiGlampingNaturehikeanh2.src,
+    image3: DemHoiGlampingNaturehikeanh3.src,
+    image4: DemHoiGlampingNaturehikeanh4.src,
+    image5: DemHoiGlampingNaturehikeanh5.src,
+    image6: DemHoiGlampingNaturehikeanh6.src,
+    image7: DemHoiGlampingNaturehikeanh7.src,
+    image8: DemHoiGlampingNaturehikeanh8.src,
+    image9: DemHoiGlampingNaturehikeanh9.src,
+    image10: DemHoiGlampingNaturehikeanh10.src,
+    originalPrice: 8,
+    price: 120,
     quantity: 1,
-    detail1: 'Tấm lót đa năng chống nước, cách nhiệt, dày 2mm, tráng bạc 2 mặt – dùng được cả hai mặt.',
-    detail2: 'Chất liệu Aluminum Waterproof PR bền bỉ, chịu ma sát tốt, không dễ rách, dễ vệ sinh, trọng lượng nhẹ 0.4kg.',
-    detail3: 'Có bao đựng tiện lợi, dễ gấp gọn, mang theo khi đi dã ngoại hoặc sử dụng hằng ngày.',
-    detail4: 'Thích hợp dùng lót lều, ngủ trưa văn phòng, picnic, cắm trại, ngồi chơi ngoài trời – tạo cảm giác êm ái, dễ chịu.'
+    detail1: 'Đệm hơi Glamping rộng rãi, êm ái, phù hợp ngủ lều khi đi cắm trại, dã ngoại qua đêm.',
+    detail2: 'Bơm điện tích hợp sẵn, chỉ cần bật công tắc là đệm tự phồng, sử dụng nhanh chóng, không cần mang bơm riêng.',
+    detail3: 'Bề mặt êm, hạn chế tiếng sột soạt khi trở mình, giúp ngủ thoải mái hơn ngoài trời.',
+    detail4: 'Chất liệu chống nước, dễ vệ sinh sau khi sử dụng, phù hợp thuê cho các chuyến camping ngắn ngày.',
   },
+
+ 
 
 
   {
-    id: 'thue-tam-tang-da-nang',
-    name: 'Tăng 4-6 người - diện tích 9m2',
-    catalogue: '(kèm búa, cọc , dây, và 2 trụ, 3m x 3m)',
-    image: tang3m.src,
-    image1: tang3manh1.src,
-    image2: tang3manh2.src,
-    image3: tang3manh3.src,
-    image4: tang3manh4.src,
-    image5: tang3manh5.src,
-    originalPrice: 80,
-    price: 50,
-    quantity: 1,
-    detail1: 'Tấm tăng 3x3m phủ PU2000mm, chống thấm tốt – che mưa nắng hiệu quả cho nhóm 4–6 người.',
-    detail2: 'Bên trong tráng bạc giúp chống nắng xuyên thấu, thích hợp sử dụng cả ngày nắng gắt.',
-    detail3: 'Kèm 2 trụ thép sơn tĩnh điện, dây dù và cọc ghim – dễ dựng ở nhiều địa hình.',
-    detail4: 'Gấp gọn vào túi 60x15cm – tiện mang theo khi đi rừng, biển, cắm trại dài ngày.',
-    videoId: '7lWx-hpQdAs',
-  },
-  {
-    id: 'thue-tarp-da-nang',
-    name: 'Tăng 8-12 người - diện tích 20m2',
-    catalogue: '(kèm búa, cọc , dây, và 2 trụ, 4.5mx4.5m)',
-    image: tang.src,
-    image1: tang4m5anh1.src,
-    image2: tang4m5anh2.src,
-    image3: tang4m5anh3.src,
-    image4: tang4m5anh4.src,
-    image5: tang4m5anh5.src,
-    originalPrice: 150,
+    id: 'thue-leu-ve-sinh-da-nang',
+    name: 'Lều Vệ Sinh Naturehike',
+    catalogue: '(115 x 115 x 190 cm)',
+    image: leuvesinhanh1.src,
+    image1: leuvesinhanh2.src,
+    image2: leuvesinhanh3.src,
+    image3: leuvesinhanh4.src,
+    image4: leuvesinhanh5.src,
+    image5: leuvesinhanh6.src,
+    image6: leuvesinhanh7.src,
+    image7: leuvesinhanh8.src,
+    originalPrice: 200,
     price: 100,
     quantity: 1,
-    detail1: 'Tăng lớn phủ PU2000mm, diện tích 4.5x4.5m – che được 8–12 người, dùng cho nhóm đông.',
-    detail2: 'Có lớp tráng bạc chống tia UV, thích hợp cho hoạt động ngoài trời cả ngày.',
-    detail3: 'Kèm 2 trụ thép, cọc và dây dù – dễ dựng và cố định chắc chắn ở nhiều địa hình.',
-    detail4: 'Gấp gọn trong túi 60x15cm – tiện lợi mang theo đi cắm trại, dã ngoại, picnic.',
-    videoId: '7lWx-hpQdAs',
+    detail1: 'Thiết kế dạng buồng đứng cao 1.9m, đủ rộng cho 1 người thay đồ, tắm rửa hoặc vệ sinh cá nhân kín đáo. Rất phù hợp cho nhóm cắm trại, đặc biệt tiện lợi cho nữ giới khi hoạt động ngoài trời dài ngày.',
+    detail2: 'Trọng lượng chỉ 2.7kg, gấp gọn còn 55 × 6 cm, dễ mang theo bằng xe máy hoặc balo. Setup nhanh, phù hợp cho dã ngoại, trekking, câu cá hoặc tour camping nhiều ngày.',
+    detail3: 'Vải Polyester 190T chống nước khoảng 2000mm, các đường may ép nhiệt hạn chế thấm nước. Khung hợp kim nhôm chắc chắn giúp lều đứng vững khi gặp gió nhẹ đến vừa.',
+    detail4: 'Cửa 2 lớp (chống mưa + lưới chống côn trùng) giúp thông thoáng. Bên trong có túi đựng đồ cá nhân, móc treo đèn/quần áo, đi kèm cọc ghim và dây chằng giúp cố định lều an toàn khi sử dụng.',
+    videoId: '5rlTMSxkWiI',
+    isForSale: true,
+    salePrice: 2600,
   },
+
   {
-    id: 'thue-bo-2-cay-chong-tang-da-nang',
-    name: 'Bộ 2 Cây Chống Tăng Naturehike',
-    catalogue: '(bộ 2 cây, dài 2m)',
-    image: bo2caychongtang.src,
-    image1: bo2caychongtanganh1.src,
-    image2: bo2caychongtanganh2.src,
-    image3: bo2caychongtanganh3.src,
-    image4: bo2caychongtanganh4.src,
-    image5: bo2caychongtanganh5.src,
-    originalPrice: 35,
+    id: 'thue-bon-ve-sinh-gap-gon-da-nang',
+    name: 'Bồn Vệ Sinh Naturehike',
+    catalogue: '(tải trọng 150kg)',
+    image: bonvesinhanh1.src,
+    image1: bonvesinhanh2.src,
+    image2: bonvesinhanh3.src,
+    image3: bonvesinhanh4.src,
+    image4: bonvesinhanh5.src,
+    image5: bonvesinhanh6.src,
+    originalPrice: 200,
+    price: 100,
+    quantity: 1,
+    detail1: 'Thiết kế dạng buồng đứng cao 1.9m, đủ rộng cho 1 người thay đồ, tắm rửa hoặc vệ sinh cá nhân kín đáo. Rất phù hợp cho nhóm cắm trại, đặc biệt tiện lợi cho nữ giới khi hoạt động ngoài trời dài ngày.',
+    detail2: 'Trọng lượng chỉ 2.7kg, gấp gọn còn 55 × 6 cm, dễ mang theo bằng xe máy hoặc balo. Setup nhanh, phù hợp cho dã ngoại, trekking, câu cá hoặc tour camping nhiều ngày.',
+    detail3: 'Vải Polyester 190T chống nước khoảng 2000mm, các đường may ép nhiệt hạn chế thấm nước. Khung hợp kim nhôm chắc chắn giúp lều đứng vững khi gặp gió nhẹ đến vừa.',
+    detail4: 'Cửa 2 lớp (chống mưa + lưới chống côn trùng) giúp thông thoáng. Bên trong có túi đựng đồ cá nhân, móc treo đèn/quần áo, đi kèm cọc ghim và dây chằng giúp cố định lều an toàn khi sử dụng.',
+    videoId: '5rlTMSxkWiI',
+    isForSale: true,
+    salePrice: 2600,
+  },
+
+  {
+    id: 'tui-rac-tu-huy-sinh-hoc-va-goi-lam-dong-khu-mui-da-nang',
+    name: 'Combo vệ sinh dã ngoại',
+    catalogue: '(túi rác sinh học tự huỷ + gói làm đông chất thải)',
+    image: combovesinhdangoaianh1.src,
+    image1:  combovesinhdangoaianh2.src,
+    image2:  combovesinhdangoaianh3.src,
+    image3:  combovesinhdangoaianh4.src,
+    image4:  combovesinhdangoaianh5.src,
+    image5:  combovesinhdangoaianh6.src,
+    price: 10,
+    quantity: 1,
+    detail1: 'Combo vệ sinh gồm túi rác sinh học tự huỷ và gói bột làm đông chất thải, giúp xử lý vệ sinh cá nhân sạch sẽ khi đi camping, dã ngoại hoặc sử dụng nhà vệ sinh di động.',
+
+detail2: 'Bột làm đông có khả năng hút chất lỏng nhanh, khử mùi hiệu quả và chuyển nước thải thành dạng gel/khối rắn, giúp buộc túi và xử lý dễ dàng, hạn chế rò rỉ.',
+
+detail3: `Cách 1 – Khuyến nghị (sạch sẽ, hạn chế mùi tốt nhất)
+> Lắp túi rác sinh học vào ghế/bồn vệ sinh di động.
+> Đổ khoảng 300 – 500ml nước vào trong túi.
+> Rắc 1 gói bột làm đông và chờ 10 – 20 giây để tạo lớp gel.
+> Sử dụng bình thường, sau khi chất thải đã đông lại có thể buộc kín, mang đi xử lý hoặc chôn lấp thuận tiện mà không bị chảy nước. 
+> Lớp gel nền giúp giảm bắn ngược và hạn chế mùi hiệu quả. > `,
+
+detail4: `Cách 2 – Sử dụng nhanh (không cần nước)
+> Lắp túi rác sinh học vào ghế vệ sinh.
+> Rắc trực tiếp 1 gói bột làm đông vào túi trước khi sử dụng.
+> Sau khi dùng, bột sẽ tự hấp thụ chất lỏng và đông lại trong 1 – 2 phút.
+> Sau khi chất thải đã đông lại có thể buộc kín, mang đi xử lý hoặc chôn lấp thuận tiện mà không bị chảy nước.
+> Phù hợp khi trekking, camping xa nguồn nước hoặc cần thao tác nhanh.`
+
+  },
+
+  {
+    id: 'thue-xeng-camping-da-nang',
+    name: 'Xẻng Camping NatureHike',
+    catalogue: '(dao, cưa, đào đất, khui chai, tháo đinh)',
+    image: xengcampinganh1.src,
+    image1: xengcampinganh2.src,
+    image4: xengcampinganh3.src,
+    image5: xengcampinganh4.src,
+    image6: xengcampinganh5.src,
+    image7: xengcampinganh6.src,
+    image8: xengcampinganh7.src,
+    originalPrice: 50,
     price: 30,
     quantity: 1,
-    detail1: 'Chất liệu ống sắt mạ kẽm Ø16mm, chống gỉ, dẻo dai và bền chắc.',
-    detail2: 'Bộ gồm 2 cây, mỗi cây dài 2m, ghép từ 4 đoạn 50cm, có đầu nhọn móc khoen bạt.',
-    detail3: 'Trọng lượng 0.84kg, kích thước đóng gọn 60x12cm, có túi đựng tiện lợi.',
-    detail4: 'Phù hợp chống tăng bạt, mái che lều khi cắm trại, picnic, dã ngoại.'
+    detail1: 'Xẻng cầm tay mini đa năng NatureHike NH20GJ001 là dụng cụ sinh tồn gọn nhẹ dành cho camping, trekking và leo núi. Thiết kế nhỏ gọn nhưng chắc chắn, phù hợp đào hố lửa trại, xử lý đất mềm hoặc các nhu cầu dã ngoại cơ bản.',
+
+    detail2: 'Tích hợp 7 chức năng tiện dụng trong một: xẻng đào đất, lưỡi dao mài bén, lưỡi cưa tay, khui nắp chai, khe tháo đinh và các công năng hỗ trợ sinh tồn khác, giúp giảm số lượng dụng cụ phải mang theo khi đi rừng.',
+    
+    detail3: 'Phần lưỡi được hoàn thiện từ thép không gỉ 3Cr13 siêu cứng, chịu lực tốt và bền bỉ trong môi trường ngoài trời. Cán quấn dây nylon chống trượt giúp cầm chắc tay, tăng độ an toàn khi sử dụng.',
+    
+    detail4: 'Trọng lượng chỉ 180g, cực kỳ gọn nhẹ và dễ mang theo trong balo. Kích thước xẻng 260 x 70 x 27 mm, đi kèm túi đựng vải canvas 290 x 95 mm giúp bảo quản và mang theo thuận tiện trong mọi chuyến đi.'
+    
   },
 
   {
-    id: 'thue-tham-da-ngoai-da-nang',
-    name: 'Thảm dã ngoại',
-    catalogue: '(chống thấm, 2m1x2m)',
-    image: thamdangoai.src,
-    image1: thamdangoaiannh1.src,
-    image2: thamdangoaiannh2.src,
-    image3: thamdangoaiannh3.src,
-    image4: thamdangoaiannh4.src,
-    image5: thamdangoaiannh5.src,
-    originalPrice: 30,
-    price: 25,
+    id: 'thue-tui-dung-nuoc-da-nang',
+    name: 'Túi đựng nước có vòi Naturehike',
+    catalogue: '(10L)',
+    image: TuiMangNuocCoVoi1.src,
+    image1: TuiMangNuocCoVoi3.src,
+    image2: TuiMangNuocCoVoi4.src,
+    image3: TuiMangNuocCoVoi5.src,
+    image4: TuiMangNuocCoVoi6.src,
+    image5: TuiMangNuocCoVoi7.src,
+    originalPrice: 20,
+    price: 15,
     quantity: 1,
-    detail1: 'Thảm vải dù chống thấm nước, kích thước 2.1x2m',
-    detail2: 'Gọn nhẹ chỉ 350g, gấp lại chỉ 10x20x3cm, có túi đựng và móc treo tiện lợi.',
-    detail3: 'Phù hợp picnic, tắm nắng, đi biển, công viên, chống ẩm và chống xước tốt.',
-    detail4: 'Bộ gồm: thảm, túi đựng, móc carabiner và 4 đinh ghim nhựa cố định.'
+    detail1: 'Thiết kế túi nước 10L phù hợp sử dụng trong các chuyến dã ngoại, picnic, cắm trại dài ngày, tích trữ đủ lượng nước sinh hoạt, nấu ăn hay giải khát.',
+    detail2: 'Có thể gấp gọn chung với hành lý khi không sử dụng, tiết kiệm diện tích, thuận tiện mang theo trong balo hoặc cốp xe.',
+    detail3: 'Làm từ nhựa PA, PE, PET (3 lớp Composite), an toàn khi đựng nước ngọt, nước có ga hay đồ uống có cồn, giữ nhiệt tốt khi kết hợp với thùng bảo ôn.',
+    detail4: 'Trang bị vòi rót tiện lợi, dễ dàng lấy nước hoặc rót đồ uống. Thích hợp mang đi picnic, cắm trại, đi biển hay tổ chức tiệc ngoài trời.'
+  },
+  {
+    id: 'thue-bo-voi-sen-naturehike-da-nang',
+    name: 'Bộ túi nước & vòi sen dã ngoại Naturehike',
+    catalogue: '(11L + vòi sen)',
+    image: bovoisenanh1.src,
+    image1:bovoisenanh2.src,
+    image2:bovoisenanh3.src,
+    image3:bovoisenanh4.src,
+    image4:bovoisenanh5.src,
+    image5:bovoisenanh6.src,
+    image6:bovoisenanh7.src,
+    originalPrice: 20,
+    price: 100,
+    quantity: 1,
+    detail1: 'Bộ tắm dã ngoại tiện lợi: túi nước 11L + vòi tắm áp lực cao, phù hợp cắm trại dài ngày.',
+    detail2: 'Chất liệu PVC bền bỉ, chống nước và chống bụi, sử dụng ổn định ngoài trời.',
+    detail3: 'Vòi nhựa ABS chắc chắn, dây dẫn dài 2m linh hoạt khi sử dụng.',
+    detail4: 'Đa năng: tắm cá nhân, rửa tay chân, nấu nướng hoặc xịt rửa tiện lợi.'
   },
 
-  {
-    id: 'thue-tham-vintage-da-nang',
-    name: 'Thảm Vintage',
-    catalogue: '(chống thấm, 2mx2m)',
-    image: thamvintage.src,
-    image1: thamvintageannh1.src,
-    image2: thamvintageannh2.src,
-    image3: thamvintageannh3.src,
-    image4: thamvintageannh4.src,
-    image5: thamvintageannh5.src,
-    originalPrice: 50,
-    price: 40,
-    quantity: 1,
-    detail1: 'Thảm picnic thổ cẩm đỏ chống thấm, dày 3.5mm, kích thước 2x2m hoặc 1.5x2m.',
-    detail2: 'Cấu tạo 3 lớp: Flannel + bông ngọc trai + lớp chống nước, giữ ấm, không xơ, không bóng.',
-    detail3: 'Gấp gọn tiện lợi (35x25x8cm), trọng lượng 1.2kg, dễ mang theo du lịch, picnic.',
-    detail4: 'Phù hợp dùng lót trong lều, trải ngồi ngoài trời, đi biển, dã ngoại hoặc tiệc BBQ.'
-  },
+ 
+
+
 
   {
     id: 'thue-ghe-camping-da-nang',
@@ -715,7 +1051,7 @@ export const products = [
 
   {
     id: 'thue-ghe-da-nang',
-    name: 'Ghế Naturehike',
+    name: 'Ghế xếp Naturehike',
     catalogue: '(1.3kg)',
     image: gheNH1.src,
     image1: gheNH5.src,
@@ -724,7 +1060,7 @@ export const products = [
     image4: gheNH2.src,
     image5: gheNH10.src,
     originalPrice: 35,
-    price: 35,
+    price: 30,
     quantity: 1,
     detail1: 'Ghế xếp mini câu cá, đi du lịch NatureHike NH16J001-J. Là một mẫu ghế dã ngoại được ưa chuộng trong cộng đồng camper với thiết kế đơn giản chắc chắn, gọn nhẹ giúp người sử dụng có thể luôn mang bên mình.',
     detail2: 'Khung được làm từ thép không gỉ dạng ống, chắc chắn, chịu lực tốt, chống han gỉ khi sử dụng ngoài trời. Kết hợp với lớp vải Offord 600D dày dặn, chống thấm nhẹ, dễ vệ sinh, bền màu theo thời gian.',
@@ -733,8 +1069,8 @@ export const products = [
   },
 
   {
-    id: 'thue-ghe-cafe-da-nang',
-    name: 'Ghế Vintage',
+    id: 'thue-ghe-glaming-da-nang',
+    name: 'Ghế Glamping',
     catalogue: '(2kg)',
     image: ghevintageanh.src,
     image1: ghevintageanh1.src,
@@ -743,7 +1079,7 @@ export const products = [
     image4: ghevintageanh4.src,
     image5: ghevintageanh5.src,
     originalPrice: 35,
-    price: 35,
+    price: 40,
     quantity: 1,
   
     detail1: 'Gấp gọn siêu nhanh chỉ trong 3 giây với thiết kế gấp thông minh, tiết kiệm diện tích, dễ dàng mang theo khi đi du lịch, picnic hay dã ngoại.',
@@ -757,7 +1093,7 @@ export const products = [
   
   {
     id: 'thue-ban-camping-xep-gon-da-nang',
-    name: 'Bàn Vintage',
+    name: 'Bàn/Thùng Camping',
     catalogue: '(52x35x30cm)',
     image: banvintage.src,
     image1: banvintage1.src,
@@ -794,8 +1130,8 @@ export const products = [
 
   {
     id: 'thue-ban-nhom-da-nang',
-    name: 'Bàn nhôm Naturehike CNH22JU050 - Size S',
-    catalogue: '(40x30cm, 1kg)',
+    name: 'Bàn nhôm Mini Naturehike',
+    catalogue: '(Gọn nhẹ chỉ 1kg - 40.5 x 29 x 30.5cm )',
     image: banNH1.src,
     image1: banNH2.src,
     image2: banNH3.src,
@@ -809,12 +1145,12 @@ export const products = [
     detail2: 'Sử dụng hợp kim nhôm 6063 dày dặn, kết hợp Inox 304 ở phần đinh tán, đảm bảo sự ổn định cao, bền bỉ trong suốt quá trình sử dụng.',
     detail3: 'Kích thước sử dụng: 40.5 x 29 x 30.5 cm | Gấp gọn: 11 x 14 x 19 cm | Trọng lượng chỉ khoảng 1kg, phù hợp mang đi bộ đường dài.',
     detail4: 'Lý tưởng dùng làm bàn ăn, bàn trà, bàn để đồ khi cắm trại – picnic. Mang lại không gian gọn gàng, tiện nghi, giúp bạn tận hưởng thiên nhiên một cách trọn vẹn.',
-    videoId: 'NccX88A3RLw'
+    videoId: 'uBj_iYXZ8gc'
   },
 
     {
     id: 'thue-ban-nauturehike-da-nang',
-    name: 'Bàn nhôm Naturehike NH16Z016L - Size M',
+    name: 'Bàn nhôm Naturehike Nhỏ',
     catalogue: '(52x52x46cm, 2.5kg)',
     image: BanNaturehikeSizeManh1.src,
     image1: BanNaturehikeSizeManh2.src,
@@ -834,7 +1170,7 @@ export const products = [
 
     {
     id: 'thue- ban-nhom-naturehike-da-nang',
-    name: 'Bàn nhôm Naturehike NH16Z016L - Size L',
+    name: 'Bàn nhôm Naturehike Lớn',
     catalogue: '(70x70x56cm, 3kg)',
     image: BanNaturehikeSizeLanh1.src,
     image1: BanNaturehikeSizeLanh2.src,
@@ -854,7 +1190,7 @@ export const products = [
 
   {
     id: 'thue-khan-ban-tho-cam-da-nang',
-    name: 'Khăn bàn thổ cẩm',
+    name: 'Khăn thổ cẩm trải bàn',
     catalogue: '(1m x 1m5)',
     image: khanban.src,
     originalPrice: 15,
@@ -888,7 +1224,7 @@ export const products = [
   {
     id: 'thue-den-leu-da-nang',
     name: 'Đèn lều',
-    catalogue: '(thời gian chiếu sáng 6-8h)',
+    catalogue: '(4-6h)',
     image: denleu.src,
     image1: denleuanh1.src,
     image2: denleuanh2.src,
@@ -904,20 +1240,77 @@ export const products = [
     detail4: 'Thời gian chiếu sáng: 4h ở chế độ sáng nhất, 5-6h ở chế độ sáng thấp hơn.'
   },
 
+  {
+    id: 'thue-den-doi-dau-da-nang',
+    name: 'Đèn đội đầu Naturehike',
+    catalogue: '(6-8h)',
+    image: dendoidaunaturehikeanh1.src,
+    image1: dendoidaunaturehikeanh2.src,
+    image2: dendoidaunaturehikeanh3.src,
+    image3: dendoidaunaturehikeanh4.src,
+    image4: dendoidaunaturehikeanh5.src,
+    image5: dendoidaunaturehikeanh6.src,
+    image6: dendoidaunaturehikeanh7.src,
+    image7: dendoidaunaturehikeanh8.src,
+    image8: dendoidaunaturehikeanh9.src,
+    originalPrice: 40,
+    price: 60,
+    quantity: 1,
+    detail1: 'Góc chiếu rộng tăng 70° theo phương dọc, mở rộng vùng quan sát gần, hạn chế vấp ngã khi di chuyển ban đêm.',
+    detail2: 'Chuẩn chống nước IP68, sử dụng ổn định dưới mưa lớn và môi trường ẩm ướt ngoài trời.',
+    detail3: 'Đèn LED công suất 1.6W, độ sáng 4–210LM, chiếu xa tối đa khoảng 70m.',
+    detail4: 'Thời gian sử dụng theo mức sáng: 210LM ~1,5h; 95LM ~4h; 8LM ~28h; đèn đỏ cảnh báo ~12h (3 pin AAA).'
+  },
 
+  // {
+  //   id: 'thue-den-co-dien-naturehike-da-nang',
+  //   name: 'Đèn Cổ Điển Naturehike',
+  //   catalogue: '(3–8h)',
+  //   image: dencodiennaturehikeanh4.src,
+  //   image1: dencodiennaturehikeanh5.src,
+  //   image2: dencodiennaturehikeanh1.src,
+  //   image4: dencodiennaturehikeanh8.src,
+  //   image5: dencodiennaturehikeanh6.src,
+  //   image6: dencodiennaturehikeanh7.src,
+  //   originalPrice: 25,
+  //   price: 70,
+  //   quantity: 1,
+  //   detail1: 'Thiết kế cổ điển nhỏ gọn, vỏ hợp kim nhôm anodized bền đẹp, dễ mang theo.',
+  //   detail2: 'Nguồn sáng kép trắng ấm – trắng lạnh, chuyển đổi nhanh phù hợp nhiều không gian sử dụng.',
+  //   detail3: 'Ánh sáng 20–100LM tạo không khí ấm áp, dùng tốt khi cắm trại, đi đêm hoặc làm đèn ngủ.',
+  //   detail4: 'Pin lithium 900mAh sạc Type-C tiện lợi, thời gian dùng khoảng 3–8 giờ, chuẩn chống nước IPX4.'
+  // },
+  
+  {
+    id: 'thue-den-retro-da-nang',
+    name: 'Đèn Retro cổ điển',
+    catalogue: '(3-8h)',
+    image: denretroanh1.src,
+    image1: denretroanh3.src,
+    image2: denretroanh2.src,
+    image3: denretroanh4.src,
+    image4: denretroanh5.src,
+    originalPrice: 25,
+    price: 40,
+    quantity: 1,
+    detail1: 'Đèn LED có 4 chế độ sáng, điều chỉnh linh hoạt theo nhu cầu: ăn tối, sinh hoạt trong lều hoặc ánh sáng nhẹ thư giãn buổi tối.',
+    detail2: 'Tích hợp pin 1200mAh, sạc bằng cổng USB, phù hợp cho chuyến đi cắm trại qua đêm mà không cần nguồn điện cố định.',
+    detail3: 'Thiết kế dạng đèn lồng, có tay cầm silicon chắc chắn, dùng được khi treo trong lều, đặt bàn ăn hoặc cầm tay di chuyển ban đêm.',
+    detail4: 'Thân đèn bằng sắt chắc chắn, chuẩn chống nước IPX4 giúp sử dụng an tâm khi gặp sương đêm hoặc mưa nhẹ trong chuyến camping.'
+  },
 
   {
     id: 'thue-den-vintage-da-nang',
     name: 'Đèn Vintage',
     catalogue: '(thời gian chiếu sáng 4–7h)',
-    image: dendeban.src,
-    image1: denvintageannh1.src,
+    image: denvintageannh1.src,
+    image1: dendeban.src,
     image2: denvintageannh2.src,
     image3: denvintageannh3.src,
     image4: denvintageannh4.src,
     image5: denvintageannh5.src,
     originalPrice: 25,
-    price: 15,
+    price: 25,
     quantity: 1,
     detail1: 'Đèn vintage Tmountain DCP10 dùng pin sạc 18650, ánh sáng vàng, thiết kế retro.',
     detail2: 'Dung lượng pin 1200mAh, đến 8–10h (sáng vừa).',
@@ -928,7 +1321,7 @@ export const products = [
   {
     id: 'thue-den-led-tron-da-nang',
     name: 'Đèn led tròn',
-    catalogue: '(thời gian chiếu sáng 6-8h)',
+    catalogue: '(8h)',
     image: denled.src,
     image1: denledtronannh1.src,
     image2: denledtronannh2.src,
@@ -936,7 +1329,7 @@ export const products = [
     image4: denledtronannh4.src,
     image5: denledtronannh5.src,
     originalPrice: 30,
-    price: 20,
+    price: 25,
     quantity: 1,
     detail1: 'Dây đèn led cherry ball dài 6m gồm 40 bóng tròn, dùng trang trí lều trại, glamping, sân vườn.',
     detail2: 'Chống nước IP65, bóng nhựa ABS chống va đập, an toàn sử dụng ngoài trời.',
@@ -947,7 +1340,7 @@ export const products = [
   {
     id: 'thue-den-led-ngoi-sao-da-nang',
     name: 'Đèn led ngôi sao',
-    catalogue: '(thời gian chiếu sáng 8-10h)',
+    catalogue: '(8h)',
     image: denngoisao.src,
     image1: denngoisaoannh1.src,
     image2: denngoisaoannh2.src,
@@ -955,7 +1348,7 @@ export const products = [
     image4: denngoisaoannh4.src,
     image5: denngoisaoannh5.src,
     originalPrice: 50,
-    price: 30,
+    price: 35,
     quantity: 1,
     detail1: 'Dây đèn rèm hình ngôi sao dài 4m với 138 bóng led, gồm 6 ngôi sao lớn và 6 ngôi sao nhỏ.',
     detail2: 'Sử dụng 3 pin AAA hoặc sạc dự phòng qua cổng USB (sản phẩm kèm pin, mặc định loại dùng pin).',
@@ -987,7 +1380,7 @@ export const products = [
   {
     id: 'thue-gia-treo-den-da-nang',
     name: 'Trụ treo đèn 1m8',
-    catalogue: '(phù hợp treo đèn cao)',
+    catalogue: '(2 móc treo)',
     image: caytrutreodenanh2.src,
     image1: caytrutreodenanh1.src,
     image2: caytrutreodenanh5.src,
@@ -995,7 +1388,7 @@ export const products = [
     image4: caytrutreodenanh6.src,
     image5: caytrutreodenanh3.src,
     originalPrice: 35,
-    price: 25,
+    price: 20,
     quantity: 1,
     detail1: 'Khung nhôm hợp kim siêu nhẹ, kháng nước & kháng gỉ tốt',
     detail2: 'Thiết kế 2 móc treo tiện dụng, tháo rời và gập gọn dễ dàng',
@@ -1009,7 +1402,7 @@ export const products = [
   {
     id: 'thue-sac-du-phong-da-nang',
     name: 'Sạc dự phòng',
-    catalogue: '(dung lượng 20.000 mAh,kèm dây sạc 3 đầu)',
+    catalogue: '(20.000 mAh)',
     image: sacduphong.src,
     image1: sacduphongannh1.src,
     image2: sacduphongannh2.src,
@@ -1027,7 +1420,7 @@ export const products = [
   {
     id: 'thue-loa-nghe-nhac-mini-da-nang',
     name: 'Loa Tronsmart T7 Mini',
-    catalogue: 'Loa công suất 15W,bật đèn sử dụng 12h và tắt đèn 18h',
+    catalogue: '15W - Pin 12h',
     image: loa.src,
     image1: loaanh1.src,
     image2: loaanh2.src,
@@ -1046,7 +1439,7 @@ export const products = [
   {
     id: 'thue-loa-jbl-partyBox-encore-2-da-nang',
     name: 'Loa JBL PartyBox Encore 2',
-    catalogue: 'Loa karaoke di động công suất 100W, pin rời 15 giờ, chống nước IPX4.',
+    catalogue: '100W - Pin 15h.',
     image: loajblpartyboxencore2.src,
     image1: loajblpartyboxencore21.src,
     image2: loajblpartyboxencore22.src,
@@ -1065,7 +1458,7 @@ export const products = [
 {
   id: 'thue-loa-jbl-partyBox-stage-320-da-nang',
   name: 'Loa JBL PartyBox Stage 320',
-  catalogue: 'Loa karaoke di động công suất 240W RMS, pin 18 giờ, chống nước IPX4, Auracast.',
+  catalogue: '240W - Pin 18h',
   image: loajblpartyboxstage320.src,
   image1: loajblpartyboxstage3201.src,
   image2: loajblpartyboxstage3202.src,
@@ -1084,7 +1477,7 @@ export const products = [
 {
   id: 'thue-loa-jbl-partyBox-720-da-nang',
   name: 'Loa JBL PartyBox 720',
-  catalogue: 'Loa tiệc tùng công suất 800W RMS, pin rời 15 giờ, chống nước IPX4, Auracast.',
+  catalogue: '800W - Pin 15h',
   image: loajblpartybox720.src,
   image1: loajblpartybox7201.src,
   image2: loajblpartybox7202.src,
@@ -1103,8 +1496,8 @@ export const products = [
 ,
   {
     id: 'thue-quat-tich-dien-da-nang',
-    name: 'Quạt tích điện',
-    catalogue: '(Pin 20.000mAh, dùng 70h mức thấp, 11h mạnh nhất, 9h khi bật tất cả; đèn dùng ~300h. Tích hợp đèn 3 mức, điều khiển từ xa, hẹn giờ, kiêm sạc dự phòng.)',
+    name: 'Quạt Camping',
+    catalogue: '(20.000mAh, pin 11h, có đèn - kiêm sạc dự phòng.)',
     image: quat.src,
     image1: quatanh1.src,
     image2: quatanh2.src,
@@ -1124,7 +1517,7 @@ export const products = [
   {
     id: 'thue-tripod-da-nang',
     name: 'Tripod',
-    catalogue: '(có remote, dùng cho cả máy ảnh và điện thoại)',
+    catalogue: '(có remote, dùng cho cả máy ảnh & điện thoại)',
     image: tripod.src,
     image1: tripodanh1.src,
     image2: tripodanh2.src,
@@ -1141,7 +1534,7 @@ export const products = [
   },
   {
     id: 'thue-bep-nuong-da-nang',
-    name: 'Bếp nướng Nhỏ',
+    name: 'Bếp nướng',
     catalogue: '(kèm 2 kẹp inox)',
     image: bepnuong.src,
     image1: bepnuonganh1.src,
@@ -1160,7 +1553,7 @@ export const products = [
 
   {
     id: 'cho-thue-bep-nuong-da-nang',
-    name: 'Bếp Nướng Lớn',
+    name: 'Bếp Nướng Campingmoon',
     catalogue: '(kèm 2 kẹp inox)',
     image: bepnuongMT3.src,
     image1: bepnuongMT3anh1.src,
@@ -1169,7 +1562,7 @@ export const products = [
     image4: bepnuongMT3anh4.src,
     image5: bepnuongMT3anh5.src,
     originalPrice: 80,
-    price: 70,
+    price: 80,
     quantity: 1,
     detail1: 'Chất liệu inox không gỉ cao cấp, chịu nhiệt tốt, tuổi thọ cao',
     detail2: 'Kích thước mở: 49 x 34 x 26cm | Gấp gọn: 49 x 20 x 9cm | Trọng lượng: 4.3kg',
@@ -1181,7 +1574,7 @@ export const products = [
 
   {
     id: 'thue-bep-cui-mini-da-nang',
-    name: 'Bếp củi dã ngoại Ti Artisan thép không gỉ 304',
+    name: 'Bếp củi dã ngoại',
     catalogue: '(125 x 125 x 160mm)',
     image: bepcui.src,
     image1: bepcuianh1.src,
@@ -1198,10 +1591,38 @@ export const products = [
     detail4: 'Tối ưu luồng khí giúp đốt hiệu quả, chân đế chữ thập chắc chắn, dùng được với nhiều loại nồi.',
     detail5: 'Kích thước: 125 x 125 x 160mm | Trọng lượng: 448g'
   },
+
+  {
+    id: 'thue-bep-cui-gap-gon-campingmoon-da-nang',
+    name: 'Bếp củi Campingmoon',
+    catalogue: '(42 x 42 x 32 cm & 1,2 kg)',
+    image: bepcuicampingmoonanh1.src,
+    image1: bepcuicampingmoonanh2.src,
+    image2: bepcuicampingmoonanh3.src,
+    image3: bepcuicampingmoonanh4.src,
+    image4: bepcuicampingmoonanh5.src,
+    image5: bepcuicampingmoonanh6.src,
+    image6: bepcuicampingmoonanh7.src,
+    image7: bepcuicampingmoonanh8.src,
+    image8: bepcuicampingmoonanh9.src,
+    originalPrice: 50,
+    price: 80,
+    quantity: 1,
+    detail1: 'Giá đốt củi dã ngoại Campingmoon SOLO-303 thiết kế gấp gọn, phù hợp đốt lửa trại, nấu ăn ngoài trời hoặc sử dụng khi camping, trekking.',
+
+detail2: 'Khung thép không gỉ chắc chắn với chân đế 4 điểm chịu lực ổn định, mặt lưới chịu nhiệt cao cho phép đặt nồi tối đa 10kg an toàn.',
+
+detail3: 'Lưới thép mắt nhỏ giúp giữ than và tàn lửa, hạn chế rơi xuống đất, kiểm soát lượng củi và kích thước ngọn lửa hiệu quả hơn.',
+
+detail4: 'Trọng lượng 1,2kg, gấp gọn nhanh và đi kèm túi đựng tiện lợi, dễ mang theo trong balo và lắp đặt nhanh trong mọi chuyến dã ngoại.'
+
+  },
+
+  
   {
     id: 'thue-bep-gas-da-nang',
     name: 'Bếp gas',
-    catalogue: '(Không kèm bình gas)',
+    catalogue: '(1.2kg)',
     image: bepgas.src,
     image1: bepgasanh1.src,
     image2: bepgasanh2.src,
@@ -1212,7 +1633,7 @@ export const products = [
     price: 50,
     quantity: 1,
     detail1: 'Bếp gas mini WAJARIGHT hàng xuất Nhật. Thiết kế cứng cáp, tiện lợi cho du lịch, picnic, cắm trại. Chất liệu: thép không gỉ, đồng, nhôm, nylon.',
-    detail2: 'Kích thước mở rộng: 26x26x10 cm. Gập gọn: 27x8x10 cm. Trọng lượng 1.23kg. Công suất 2.6kW. Tiêu thụ gas: 190g/h. Sử dụng bình gas mini.',
+    detail2: 'Kích thước mở rộng: 26x26x10 cm. Gập gọn: 27x8x10 cm. Trọng lượng 1.2kg. Công suất 2.6kW. Tiêu thụ gas: 190g/h. Sử dụng bình gas mini.',
     detail3: 'Tích hợp đánh lửa nhanh. Van điện từ an toàn, tự ngắt khi áp suất tăng. Núm điều chỉnh lửa linh hoạt. Giá đỡ có răng cưa giữ nồi chắc chắn.',
     detail4: 'Thiết kế gấp gọn nhanh chóng, tặng kèm túi đựng tiện lợi. Thích hợp cho các hoạt động ngoài trời như cắm trại, câu cá, trekking,...',
     isForSale: true,
@@ -1297,8 +1718,8 @@ export const products = [
     detail4: 'Thiết kế nắp đậy kín, tay xách tiện lợi. Bề mặt nhẵn dễ vệ sinh. Phù hợp sử dụng cho gia đình, đi cắm trại.'
   },
   {
-    id: 'thue-bo-noi-4-nguoi-da-nang',
-    name: 'Bộ nồi 3-4 người',
+    id: 'thue-bo-noi-camping-da-nang',
+    name: 'Bộ nồi Camping',
     catalogue: '(ấm, chảo, nồi)',
     image: bonoi.src,
     image1: bonoinhoanh1.src,
@@ -1309,11 +1730,62 @@ export const products = [
     originalPrice: 40,
     price: 30,
     quantity: 1,
-    detail1: 'Bộ nồi dã ngoại 3 món gồm ấm nước, nồi, chảo bằng hợp kim nhôm cao cấp, gọn nhẹ, tiện lợi cho 3-4 người. Thích hợp dùng khi cắm trại, picnic, trekking, hoặc sử dụng tại nhà.',
+    detail1: 'Bộ nồi dã ngoại 3 món gồm ấm nước, nồi, chảo bằng hợp kim nhôm cao cấp, gọn nhẹ, tiện lợi cho 2-4 người. Thích hợp dùng khi cắm trại, picnic, trekking, hoặc sử dụng tại nhà.',
     detail2: 'Bộ gồm: 1 chảo (18x4cm), 1 nồi (17.2x9cm), 1 ấm (14x8cm – 0.8L), 1 nắp nồi (17.2x1.8cm). Khối lượng tổng: 0.9kg. Kích thước xếp gọn: 18x10cm.',
     detail3: 'Chất liệu nhôm cao cấp chống oxy hóa, truyền nhiệt tốt, làm nóng nhanh. Tay cầm nhựa cách nhiệt, chống trượt. Chảo chống dính, dễ vệ sinh. Vòi ấm thiết kế tinh xảo ngăn nước chảy mạnh.',
     detail4: 'Công nghệ xử lý anodizing an toàn, không độc hại. Nồi có thể xếp chồng gọn gàng, quai gấp tiện lợi, tiết kiệm diện tích. Tặng kèm túi lưới bảo quản. Dùng được với bếp gas, bếp củi, bếp cồn.'
   },
+  {
+    id: 'thue-bo-noi-naturehike-4-nguoi-da-nang',
+    name: 'Bộ nồi Naturehike 4 món ',
+    catalogue: '(2 nồi và 2 chảo)',
+    image: bonoinaturehike4monanh1.src,
+    image1: bonoinaturehike4monanh2.src,
+    image2: bonoinaturehike4monanh3.src,
+    image3: bonoinaturehike4monanh4.src,
+    image4: bonoinaturehike4monanh5.src,
+    image5: bonoinaturehike4monanh6.src,
+    image6: bonoinaturehike4monanh7.src,
+    image7: bonoinaturehike4monanh8.src,
+    image8: bonoinaturehike4monanh9.src,
+
+    originalPrice: 40,
+    price: 50,
+    quantity: 1,
+    detail1: 'Bộ nồi dã ngoại 4 món gồm 2 nồi và 2 chảo, phù hợp nấu ăn cho nhóm 2–4 người khi camping, trekking hoặc picnic ngoài trời.',
+
+detail2: 'Chất liệu hợp kim nhôm phủ Alumina chống bám bẩn, dẫn nhiệt tốt, không gỉ và dễ vệ sinh sau khi sử dụng.',
+
+detail3: 'Thiết kế xếp gọn 4 trong 1 giúp tiết kiệm diện tích balo, trọng lượng chỉ 450g thuận tiện mang theo mọi chuyến đi.',
+
+detail4: 'Quai nồi gập gọn bọc cao su cách nhiệt chống bỏng, cầm nắm an toàn khi nấu nướng trong điều kiện ngoài trời.'
+
+  },
+
+  {
+    id: 'thue-bo-noi-naturehike-da-nang',
+    name: 'Bộ nồi Naturehike 3 món',
+    catalogue: '(2 nồi và 1 chảo)',
+    image: bonoinaturehike3monanh1.src,
+    image1: bonoinaturehike3monanh2.src,
+    image2: bonoinaturehike3monanh3.src,
+    image3: bonoinaturehike3monanh4.src,
+    image4: bonoinaturehike3monanh5.src,
+
+    originalPrice: 40,
+    price: 50,
+    quantity: 1,
+    detail1: 'Bộ nồi dã ngoại 3 món gồm 2 nồi và 1 chảo, phù hợp nấu ăn cho nhóm 1–3 người khi camping, trekking hoặc picnic ngoài trời.',
+
+detail2: 'Chất liệu hợp kim nhôm dẫn nhiệt tốt, giúp thức ăn nhanh chín, lớp phủ chống dính hạn chế bám bẩn và dễ vệ sinh.',
+
+detail3: 'Thiết kế xếp chồng gọn gàng, trọng lượng chỉ 680g, thuận tiện mang theo trong balo cho mọi chuyến đi.',
+
+detail4: 'Tay cầm gập gọn bọc nhựa chịu nhiệt chống bỏng, đi kèm bộ vệ sinh nồi và cốc đo nước tiện lợi khi sử dụng.'
+
+
+  },
+  
 
   {
     id: 'thue-noi-treo-4l-da-nang',
@@ -1411,7 +1883,7 @@ export const products = [
   {
     id: 'thue-dau-kho-namilux-da-nang',
     name: 'Đầu khò',
-    catalogue: '(không kèm bình gas)',
+    catalogue: '(mồi than, đốt củi,...)',
     image: daukho.src,
     image1: daukhoanh1.src,
     image2: daukhoanh2.src,
@@ -1450,9 +1922,30 @@ export const products = [
   },
 
   {
-    id: 'mua-than-gao-dua-da-nang',
-    name: 'Than gáo dừa',
+    id: 'mua-than-cui--da-nang',
+    name: 'Than củi nướng BBQ',
     catalogue: '(1kg)',
+    image: thancui1.src,
+    image1: thancui2.src,
+    image2: thancui3.src,
+    image3: thancui4.src,
+    image4: thancui5.src,
+    image5: thancui6.src,
+    image6: thancui7.src,
+    originalPrice: 35,
+    price: 20,
+    quantity: 1,
+    detail1: '100% từ gáo dừa tự nhiên – Không hóa chất độc hại, an toàn cho sức khỏe, không khói độc, không bắn tia lửa.',
+    detail2: 'Hiệu quả cao, tiết kiệm – Thời gian cháy lâu 3-4 giờ, nhiệt lượng cao ổn định đến khi tàn, tiết kiệm 30-50% so với than thường.',
+    detail3: 'Dễ sử dụng – Bén lửa nhanh, không cần quạt, giữ nhiệt ổn định giúp món nướng chín đều, giữ nguyên hương vị thơm ngon.',
+    detail4: 'Đa công dụng – Phù hợp nấu, nướng, sấy nông sản, xông hơ sau sinh, tiện lợi cho cả gia đình và nhà hàng.',
+    isRental: true,
+  },
+
+  {
+    id: 'mua-than-gao-dua-da-nang',
+    name: 'Than gáo dừa nướng BBQ (3kg)',
+    catalogue: '(thùng 3kg)',
     image: than1.src,
     image1: than2.src,
     image2: than3.src,
@@ -1460,7 +1953,7 @@ export const products = [
     image4: than5.src,
     image5: than6.src,
     originalPrice: 35,
-    price: 30,
+    price: 90,
     quantity: 1,
     detail1: '100% từ gáo dừa tự nhiên – Không hóa chất độc hại, an toàn cho sức khỏe, không khói độc, không bắn tia lửa.',
     detail2: 'Hiệu quả cao, tiết kiệm – Thời gian cháy lâu 3-4 giờ, nhiệt lượng cao ổn định đến khi tàn, tiết kiệm 30-50% so với than thường.',
@@ -1510,24 +2003,7 @@ export const products = [
     isForSale: true,
     salePrice: 20,
   },
-  {
-    id: 'thue-tui-dung-nuoc-da-nang',
-    name: 'Túi đựng nước có vòi Naturehike',
-    catalogue: '(10L)',
-    image: TuiMangNuocCoVoi1.src,
-    image1: TuiMangNuocCoVoi3.src,
-    image2: TuiMangNuocCoVoi4.src,
-    image3: TuiMangNuocCoVoi5.src,
-    image4: TuiMangNuocCoVoi6.src,
-    image5: TuiMangNuocCoVoi7.src,
-    originalPrice: 20,
-    price: 15,
-    quantity: 1,
-    detail1: 'Thiết kế túi nước 10L phù hợp sử dụng trong các chuyến dã ngoại, picnic, cắm trại dài ngày, tích trữ đủ lượng nước sinh hoạt, nấu ăn hay giải khát.',
-    detail2: 'Có thể gấp gọn chung với hành lý khi không sử dụng, tiết kiệm diện tích, thuận tiện mang theo trong balo hoặc cốp xe.',
-    detail3: 'Làm từ nhựa PA, PE, PET (3 lớp Composite), an toàn khi đựng nước ngọt, nước có ga hay đồ uống có cồn, giữ nhiệt tốt khi kết hợp với thùng bảo ôn.',
-    detail4: 'Trang bị vòi rót tiện lợi, dễ dàng lấy nước hoặc rót đồ uống. Thích hợp mang đi picnic, cắm trại, đi biển hay tổ chức tiệc ngoài trời.'
-  },
+  
 
 
 
