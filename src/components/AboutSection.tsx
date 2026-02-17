@@ -8,8 +8,8 @@ export default function AboutSection() {
             ĐiĐi Camping
           </span>
         </h2>
-        <p className="text-gray-600 text-lg sm:text-xl leading-relaxed tracking-wide max-w-2xl mx-auto">
-        Cửa hàng cho thuê lều cắm trại tại Đà Nẵng - Với sứ mệnh sinh ra để phục vụ khách hàng là phụ, chờ khách rủ đi camp cùng là chính 😆😆 
+        <p className="font-medium text-lg sm:text-xl leading-relaxed tracking-wide max-w-2xl mx-auto">
+        Cửa hàng cho thuê lều cắm trại ở Đà Nẵng
         </p>
       </div>
     </section>

@@ -11,7 +11,7 @@ export default function PromoBanner() {
     {
       icon: '⛺️',
       title: 'Dịch vụ Setup Lều Trại Tận Nơi',
-      desc: 'Nhận dựng lều sẵn tại các bãi cắm hot nhất Đà Nẵng: Sơn Trà, Hòa Bắc, Hải Vân,..',
+      desc: 'Nhận dựng lều, dọn lều tại các bãi cắm Đà Nẵng (phí thương lượng tuỳ địa điểm xa gần)',
       tag: 'HOT',
     },
     {
@@ -21,12 +21,6 @@ export default function PromoBanner() {
       tag: 'SALE',
     },
 
-    {
-      icon: '🎪',
-      title: 'Không phụ thu mùa lễ',
-      desc: 'Ngày lễ không tính phụ thu',
-      tag: 'FREE',
-    },
 
    
    
