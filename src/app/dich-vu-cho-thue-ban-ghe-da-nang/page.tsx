@@ -4,7 +4,7 @@ import { products } from "@/data/products"
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
-import QR from '/src/images/qr3.jpg'
+import QR from '/src/images/qr4.jpg'
 import ban from '/src/images/ban.png'
 
 import ghe from '/src/images/ghe.png'

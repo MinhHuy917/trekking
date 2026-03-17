@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import { products } from "@/data/products"
 import Link from 'next/link'
-import QR from '/src/images/qr3.jpg'
+import QR from '/src/images/qr4.jpg'
 import { IconAll, IconTent, IconMat, IconTable, IconLight, IconAccessory, IconCooking, IconIce } from "@/components/icons/CampIcons";
 import QRSection from './QRSection'
 
