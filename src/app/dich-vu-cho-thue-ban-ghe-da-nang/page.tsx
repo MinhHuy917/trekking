@@ -4,7 +4,7 @@ import { products } from "@/data/products"
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
-import QR from '/src/images/qr2.png'
+import QR from '/src/images/qr3.jpg'
 import ban from '/src/images/ban.png'
 
 import ghe from '/src/images/ghe.png'
@@ -73,6 +73,7 @@ import BanNaturehikeSizeLanh3 from '/src/images/bannaturehikesizel/3.jpg'
 import BanNaturehikeSizeLanh4 from '/src/images/bannaturehikesizel/4.jpg'
 import BanNaturehikeSizeLanh5 from '/src/images/bannaturehikesizel/5.jpg'
 import BanNaturehikeSizeLanh6 from '/src/images/bannaturehikesizel/6.jpg'
+import QRSection from '@/components/QRSection'
 
 type Product = NonNullable<(typeof products)[number]>
 
@@ -398,13 +399,7 @@ export default function ThueLBanGheDaNang() {
       Bạn có thể quét mã QR bên dưới để thanh toán nhanh chóng và tiện lợi.
     </p>
     <div className="flex justify-center">
-  <Image
-    width={160}
-    height={200}
-    src={QR.src}
-    alt="QR Thanh toán"
-    className="max-w-xs rounded-lg border border-gray-300 shadow-md bg-white p-2"
-  />
+    <QRSection QR={QR} />
 </div>
 
   </div>

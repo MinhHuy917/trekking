@@ -4,8 +4,9 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import { products } from "@/data/products"
 import Link from 'next/link'
-import QR from '/src/images/qr2.png'
+import QR from '/src/images/qr3.jpg'
 import { IconAll, IconTent, IconMat, IconTable, IconLight, IconAccessory, IconCooking, IconIce } from "@/components/icons/CampIcons";
+import QRSection from './QRSection'
 
 const CATEGORY_DEFS = [
   { label: 'Tất cả', value: 'all', Icon: IconAll },
@@ -231,14 +232,9 @@ const ProductList: React.FC = () => {
       Bạn có thể quét mã QR bên dưới để thanh toán nhanh chóng và tiện lợi.
     </p>
     <div className="flex justify-center">
-  <Image
-    width={160}
-    height={200}
-    src={QR.src}
-    alt="QR Thanh toán"
-    className="max-w-xs rounded-lg border border-gray-300 shadow-md bg-white p-2"
-  />
+    <QRSection QR={QR} />
 </div>
+
 
   </div>
       </div>
