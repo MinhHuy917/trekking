@@ -147,8 +147,8 @@ const banGhe = [
     image3: ghevintageanh3.src,
     image4: ghevintageanh4.src,
     image5: ghevintageanh5.src,
-    originalPrice: 35,
-    price: 35,
+    originalPrice: 40,
+    price: 40,
     quantity: 1,
   
     detail1: 'Gấp gọn siêu nhanh chỉ trong 3 giây với thiết kế gấp thông minh, tiết kiệm diện tích, dễ dàng mang theo khi đi du lịch, picnic hay dã ngoại.',
