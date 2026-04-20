@@ -1,56 +1,70 @@
-import { type Metadata } from 'next'
+import { BlogCard } from '@/components/blog/BlogCard'
+import { Hero } from '@/components/home/Hero'
+import { TourCard } from '@/components/tours/TourCard'
+import { articles } from '@/data/blog'
+import { destinations } from '@/data/destinations'
+import { testimonials } from '@/data/testimonials'
+import { tours } from '@/data/tours'
 
-import AboutSection from '@/components/AboutSection'
-import { FAQ, FAQSchema } from '@/components/FAQ'
-import ImageSlider from '@/components/ImageSlider'
-import MenuContact from '@/components/MenuContact'
-import ProductList from '@/components/ProductTable'
-import { NavigationV2 } from '@/components/RootLayout'
-import Testimonials from '@/components/Testimonials'
-import WhyUs from '@/components/WhyUs'
-import SpecialNoticeBanner from '@/components/SpecialNoticeBanner'
-import BlogCamTrai from '@/components/BlogCamTrai'
-
-export const metadata: Metadata = {
-  description:
-  'Cửa hàng cho thuê lều cắm trại và bán đồ cắm trại tại Đà Nẵng – đồng hành cùng bạn trong mọi chuyến phiêu lưu.',
-}
-
-export default async function Home() {
+export default function HomePage() {
   return (
     <>
-      <ImageSlider />
-      {/* ✅ Giới thiệu về Dì Đi Camping */}
-        <AboutSection />
+      <Hero />
 
-      <SpecialNoticeBanner />
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <h2 className="text-3xl font-bold">Featured Tours</h2>
+        <div className="mt-8 grid gap-6 md:grid-cols-3">
+          {tours.slice(0, 3).map((tour) => (
+            <TourCard key={tour.id} tour={tour} />
+          ))}
+        </div>
+      </section>
 
-      <div id="products-section">
-        <ProductList />
-      </div>
-{/* ✅ Vì sao chọn chúng tôi */}
-<WhyUs />
-          {/* ✅ Đánh giá khách hàng */}
-          <Testimonials />
+      <section className="bg-white py-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold">Why Choose Us</h2>
+          <ul className="mt-8 grid gap-4 md:grid-cols-3">
+            <li className="rounded-xl border p-5">Đội ngũ guide chuyên tour trekking tại miền Trung.</li>
+            <li className="rounded-xl border p-5">Lịch trình tối ưu cho an toàn và trải nghiệm thực tế.</li>
+            <li className="rounded-xl border p-5">Hỗ trợ trước - trong - sau tour nhanh và rõ ràng.</li>
+          </ul>
+        </div>
+      </section>
 
-        
-      <div>
-      <h2 className="text-5xl font-bold text-center text-gray-900 mb-10">
-         Blog cắm trại
-          </h2>
-       <BlogCamTrai />
-      </div>
-      <FAQ />
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <h2 className="text-3xl font-bold">Destinations</h2>
+        <div className="mt-8 grid gap-4 md:grid-cols-3">
+          {destinations.map((destination) => (
+            <article key={destination.name} className="rounded-xl bg-slate-900 p-5 text-white">
+              <h3 className="text-xl font-semibold text-emerald-300">{destination.name}</h3>
+              <p className="mt-2 text-sm text-slate-200">{destination.description}</p>
+            </article>
+          ))}
+        </div>
+      </section>
 
-      <FAQSchema />
-      <div className='mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 font-sans text-[#1F3329]'>
+      <section className="bg-white py-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold">Testimonials</h2>
+          <div className="mt-8 grid gap-4 md:grid-cols-3">
+            {testimonials.map((testimonial) => (
+              <blockquote key={testimonial.name} className="rounded-xl border p-5">
+                <p className="text-slate-700">“{testimonial.content}”</p>
+                <footer className="mt-3 font-semibold text-emerald-700">— {testimonial.name}</footer>
+              </blockquote>
+            ))}
+          </div>
+        </div>
+      </section>
 
-      <NavigationV2 />
-      </div>
-      
-
-      <MenuContact />
-
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <h2 className="text-3xl font-bold">Blog Preview</h2>
+        <div className="mt-8 grid gap-6 md:grid-cols-3">
+          {articles.slice(0, 3).map((article) => (
+            <BlogCard key={article.slug} article={article} />
+          ))}
+        </div>
+      </section>
     </>
   )
 }
